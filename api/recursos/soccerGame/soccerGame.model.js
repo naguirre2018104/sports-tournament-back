@@ -1,0 +1,28 @@
+const mongoose = require("mongoose");
+
+const soccerGameSchema = new mongoose.Schema({
+  dateMatch: {
+    type: Date,
+    required: [true, "Se necesita la fecha del partido"],
+  },
+  timeMatch: {
+    type: Date,
+    required: [true, "Se necesita la hora del partido"],
+  },
+  teamOne: {
+    team: { type: mongoose.Schema.ObjectId, ref: "team" },
+    goals: {
+      type: Number,
+      required: [true, "Se necesitan los goles anotados por este equipo"],
+    },
+  },
+  teamTwo: {
+    team: { type: mongoose.Schema.ObjectId, ref: "team" },
+    goals: {
+      type: Number,
+      required: [true, "se necesitan los goles anotados por este equipo"],
+    },
+  },
+});
+
+module.exports = mongoose.model("soccerGame", soccerGameSchema);
