@@ -8,6 +8,14 @@ const cors = require("cors");
 const log = require("./utils/logger");
 const config = require("./config");
 const errorHandler = require("./api/libs/errorHandler");
+const authJWT = require('./api/libs/auth')
+const userController = require('./api/recursos/user/user.controller');
+const userRouter = require('./api/recursos/user/user.routes');
+const tournamentRouter = require('./api/recursos/tournament/tournament.routes')
+const leagueRouter = require('./api/recursos/league/league.routes');
+const teamRouter = require('./api/recursos/team/team.router');
+
+passport.use(authJWT)
 
 mongoose.connect("mongodb://127.0.0.1:27017/sports-tournament");
 mongoose.connection.on("error", () => {
@@ -20,6 +28,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(bodyParser.raw({ type: 'image/*', limit: '25mb' }));
 
 app.use(cors());
 
@@ -31,7 +40,15 @@ app.use(
   })
 );
 
+app.use(passport.initialize())
+
+app.use('/user', userRouter)
+app.use('/tournament', tournamentRouter)
+app.use('/league', leagueRouter)
+app.use('/team', teamRouter)
+
 app.use(errorHandler.procesarErroresDeDB);
+app.use(errorHandler.procesarErroresDeTamañoDeBody);
 if (config.ambiente === "prod") {
   app.use(errorHandler.erroresEnProduccion);
 } else {
@@ -40,6 +57,7 @@ if (config.ambiente === "prod") {
 
 const server = app.listen(config.puerto, () => {
   log.info("Escuchando en el puerto 3000");
+  userController.createUserAdmin();
 });
 
 module.exports = {

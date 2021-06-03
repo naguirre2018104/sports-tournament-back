@@ -5,4 +5,4 @@ const tournamentSchema = new mongoose.Schema({
   leagues: [{ type: mongoose.Schema.ObjectId, ref: "league" }],
 });
 
-module.exports = mongoose.model("tournament", tournamentSchema);
+module.exports = mongoose.model("torneo", tournamentSchema);
