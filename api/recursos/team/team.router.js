@@ -101,10 +101,11 @@ teamRouter.put(
 );
 
 teamRouter.delete(
-  "/:id",
-  [jwtAuthenticate, validarId],
+  "/:id/:idL",
+  [jwtAuthenticate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
+    let idLeague = req.params.idL;
     let teamDelete;
 
     teamDelete = await teamController.foundOneTeam({ id: id });
@@ -117,8 +118,12 @@ teamRouter.delete(
     }
 
     let teamRemoved = await teamController.deleteTeam(id);
-    res.status(200).send({ message: "Equipo eliminado", team: teamRemoved });
     log.info(`El equipo con id [${id}] ha sido eliminado con exito`);
+    leagueController.deleteTeam(idLeague, id).then((leagueUpdated) => {
+      res.status(200).send({ message: "Equipo eliminado", team: teamRemoved });
+    })
+    
+    
   })
 );
 

@@ -80,6 +80,14 @@ function setTournamentsUser(id, idTournamentUser) {
   );
 }
 
+function deleteTournamentAdmin(id, idTournamentAdmin) {
+  return User.findOneAndUpdate(
+    { _id: id },
+    { $pull: { tournamentsAdmin: idTournamentAdmin } },
+    { new: true }
+  );
+}
+
 function existingUser(username) {
   return new Promise((resolve, reject) => {
     User.find()
@@ -130,4 +138,5 @@ module.exports = {
   foundOneUser,
   saveimg,
   createUserAdmin,
+  deleteTournamentAdmin
 };

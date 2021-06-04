@@ -4,6 +4,7 @@ const passport = require('passport');
 const log = require('../../../utils/logger')
 const validateTournament = require('./tournament.validate').validateTournament;
 const tournamentController = require('./tournament.controller')
+const userController = require('../user/user.controller')
 const procesarErrores = require('../../libs/errorHandler').procesarErrores;
 const { TournamentDoesNotExist, TournamentDataAlreadyInUse } = require('./tournament.error')
 const { InvalidUserRole } = require('../user/user.error')
@@ -54,8 +55,11 @@ tournamentRouter.post('/create', [jwtAuthenticate, validateTournament, transform
     }
 
     tournamentController.createTournament(newTournament).then((tournament) => {
-        res.status(201).send({message: "Torneo creado", tournament: tournament})
-        log.info(`El torneo ha sido creado con exito`)
+        log.debug(`El torneo ha sido creado con exito`)
+        userController.setTournamentsAdmin(req.user.id, tournament.id).then((userUpdated) => {
+            res.status(201).send({message: "Torneo creado", tournament: tournament})
+            log.info(`El Usuario fue actualizado con su torneo`)
+        })
     })
     
 }))
@@ -94,8 +98,10 @@ tournamentRouter.delete('/:id', [jwtAuthenticate, validarId], procesarErrores(as
     }
 
     let tournamentRemoved = await tournamentController.deleteTournament(id)
+    let userUpdate = await userController.deleteTournamentAdmin(req.user.id, id)
     res.status(200).send({message: "Torneo eliminado", tournament: tournamentRemoved})
     log.info(`El torneo con id [${id}] ha sido eliminado con exito`)
+    log.info(`Se ha eliminado el torneo en la parte del usuario [${userUpdate}]`)
 
 }))
 

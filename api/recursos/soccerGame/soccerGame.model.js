@@ -6,21 +6,19 @@ const soccerGameSchema = new mongoose.Schema({
     required: [true, "Se necesita la fecha del partido"],
   },
   timeMatch: {
-    type: Date,
+    type: String,
     required: [true, "Se necesita la hora del partido"],
   },
   teamOne: {
     team: { type: mongoose.Schema.ObjectId, ref: "team" },
     goals: {
       type: Number,
-      required: [true, "Se necesitan los goles anotados por este equipo"],
     },
   },
   teamTwo: {
     team: { type: mongoose.Schema.ObjectId, ref: "team" },
     goals: {
       type: Number,
-      required: [true, "se necesitan los goles anotados por este equipo"],
     },
   },
 });

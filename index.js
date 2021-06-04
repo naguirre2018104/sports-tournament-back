@@ -14,6 +14,10 @@ const userRouter = require('./api/recursos/user/user.routes');
 const tournamentRouter = require('./api/recursos/tournament/tournament.routes')
 const leagueRouter = require('./api/recursos/league/league.routes');
 const teamRouter = require('./api/recursos/team/team.router');
+const matchDayRouter = require('./api/recursos/matchDay/matchDay.routes')
+const soccerGameRouter = require('./api/recursos/soccerGame/soccerGame.routes')
+const reportRouter = require('./api/recursos/report/report.routes');
+
 
 passport.use(authJWT)
 
@@ -46,6 +50,9 @@ app.use('/user', userRouter)
 app.use('/tournament', tournamentRouter)
 app.use('/league', leagueRouter)
 app.use('/team', teamRouter)
+app.use('/matchDay', matchDayRouter);
+app.use('/soccerGame', soccerGameRouter);
+app.use('/report', reportRouter);
 
 app.use(errorHandler.procesarErroresDeDB);
 app.use(errorHandler.procesarErroresDeTamañoDeBody);

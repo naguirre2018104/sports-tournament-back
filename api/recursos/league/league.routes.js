@@ -109,10 +109,11 @@ leagueRouter.put(
 );
 
 leagueRouter.delete(
-  "/:id",
-  [jwtAuthenticate, validarId],
+  "/:id/:idT",
+  [jwtAuthenticate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
+    let idTournament = req.params.idT;
     let deleteLeague;
 
     deleteLeague = await leagueController.foundOneLeague({ id: id });
@@ -123,8 +124,11 @@ leagueRouter.delete(
     }
 
     let leagueRemoved = await leagueController.deleteLeague(id);
-    res.status(200).send({ message: "Liga eliminada", league: leagueRemoved });
-    log.info(`La liga con id [${id}] ha sido eliminada con exito`);
+    log.debug(`La liga con id [${id}] ha sido eliminada con exito`);
+    tournamentController.deleteLeague(idTournament, id).then((tournamentUpdated) => {
+      res.status(200).send({ message: "Liga eliminada", league: leagueRemoved });
+      log.debug(`La liga fue eliminada en el torneo asignado con id [${idTournament}]`)
+    })
   })
 );
 

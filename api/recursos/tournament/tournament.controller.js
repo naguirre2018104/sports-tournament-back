@@ -30,6 +30,14 @@ function setLeague(id, league) {
   );
 }
 
+function deleteLeague(id, league) {
+  return Tournament.findOneAndUpdate(
+    { _id: id },
+    { $pull: { leagues: league } },
+    { new: true }
+  );
+}
+
 function existingTournament(name) {
   return new Promise((resolve, reject) => {
     Tournament.find()
@@ -64,4 +72,5 @@ module.exports = {
   existingTournament,
   foundOneTournament,
   setLeague,
+  deleteLeague
 };
