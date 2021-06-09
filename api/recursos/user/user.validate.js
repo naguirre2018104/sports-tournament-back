@@ -61,10 +61,13 @@ let validateUser = (req, res, next) => {
 const blueprintLogin = Joi.object({
   username: Joi.string().required(),
   password: Joi.string().required(),
-  name: Joi.optional().allow(""),
-  lastname: Joi.optional().allow(""),
-  role: Joi.optional().allow(""),
+  name: Joi.string().min(4).max(100).required(),
+  lastname: Joi.string().min(4).max(150).required(),
+  role: Joi.string().valid("ROLE_ADMIN", "ROLE_CLIENT").required(),
   img: Joi.optional().allow(""),
+  history: Joi.array(),
+  tournamentsUser: Joi.array(),
+  tournamentsAdmin: Joi.array(),
 });
 
 let validateLogin = (req, res, next) => {
