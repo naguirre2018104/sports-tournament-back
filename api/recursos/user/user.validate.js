@@ -9,9 +9,9 @@ const blueprintUser = Joi.object({
   lastname: Joi.string().min(4).max(150).required(),
   role: Joi.string().valid("ROLE_ADMIN", "ROLE_CLIENT").required(),
   img: Joi.optional().allow(""),
-  history: Joi.allow(""),
-  tournamentsUser: Joi.allow(""),
-  tournamentsAdmin: Joi.allow(""),
+  history: Joi.array(),
+  tournamentsUser: Joi.array(),
+  tournamentsAdmin: Joi.array(),
 });
 
 const CONTENT_TYPES_PERMIT = ['image/jpeg', 'image/jpg', 'image/png']

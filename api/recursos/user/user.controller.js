@@ -23,7 +23,7 @@ function createUserAdmin() {
     .then((userAdminFound) => {
       if (userAdminFound) {
         log.info(`El usuario administrador por defecto ya esta creado`);
-        throw new UserDataAlreadyInUse();
+        return;
       }
       return bcrypt.hash(passwordAdmin, 10);
     })
