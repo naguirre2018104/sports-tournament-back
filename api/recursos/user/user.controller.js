@@ -64,26 +64,18 @@ function setHistory(id, history) {
   );
 }
 
-function setTournamentsAdmin(id, idTournamentAdmin) {
+function setLeague(id, idLeague) {
   return User.findOneAndUpdate(
     { _id: id },
-    { $push: { tournamentsAdmin: idTournamentAdmin } },
+    { $push: { leagues: idLeague } },
     { new: true }
   );
 }
 
-function setTournamentsUser(id, idTournamentUser) {
+function deleteLeague(id, idLeague) {
   return User.findOneAndUpdate(
     { _id: id },
-    { $push: { tournamentsUser: idTournamentUser } },
-    { new: true }
-  );
-}
-
-function deleteTournamentAdmin(id, idTournamentAdmin) {
-  return User.findOneAndUpdate(
-    { _id: id },
-    { $pull: { tournamentsAdmin: idTournamentAdmin } },
+    { $pull: { leagues: idLeague } },
     { new: true }
   );
 }
@@ -132,11 +124,10 @@ module.exports = {
   deleteUser,
   updateUser,
   setHistory,
-  setTournamentsAdmin,
-  setTournamentsUser,
+  setLeague,
+  deleteLeague,
   existingUser,
   foundOneUser,
   saveimg,
   createUserAdmin,
-  deleteTournamentAdmin
 };

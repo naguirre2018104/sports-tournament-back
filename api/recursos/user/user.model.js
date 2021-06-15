@@ -25,8 +25,7 @@ const userSchema = new mongoose.Schema({
     type: String,
   },
   history: [{}],
-  tournamentsUser: [{ type: mongoose.Schema.ObjectId, ref: "torneo" }],
-  tournamentsAdmin: [{ type: mongoose.Schema.ObjectId, ref: "torneo" }],
+  leagues: [{ type: mongoose.Schema.ObjectId, ref: "league" }],
 });
 
 module.exports = mongoose.model("user", userSchema);

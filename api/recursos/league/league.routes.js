@@ -4,7 +4,7 @@ const passport = require("passport");
 const log = require("../../../utils/logger");
 const validateLeague = require("./league.validate").validateLeague;
 const leagueController = require("./league.controller");
-const tournamentController = require("../tournament/tournament.controller");
+const userController = require('../user/user.controller');
 const procesarErrores = require("../../libs/errorHandler").procesarErrores;
 const {
   LeagueDataAlreadyInUse,
@@ -52,12 +52,11 @@ leagueRouter.get(
 );
 
 leagueRouter.post(
-  "/create/:id",
+  "/create",
   [jwtAuthenticate, validateLeague, transformBodyToLowerCase],
   procesarErrores(async (req, res) => {
     let newLeague = req.body;
     let leagueExisting;
-    let idTournament = req.params.id;
 
     leagueExisting = await leagueController.foundOneLeague({
       name: newLeague.name,
@@ -70,17 +69,11 @@ leagueRouter.post(
 
     leagueController.createLeague(newLeague).then((league) => {
       log.debug(`La liga ha sido creada con exito`);
-      tournamentController
-        .setLeague(idTournament, league.id)
-        .then((tournamentUpdated) => {
-          log.debug(
-            `El torneo con id [${idTournament}] se le añadio la nueva liga`
-          );
-          leagueController.setUser(league.id, req.user.id).then((userUpdated) => {
-            log.debug(`La liga tiene su creador: [${req.user.username}]`)
-            res.status(201).send({ message: "Liga creada", league: userUpdated });
-          })
-        });
+      userController.setLeague(req.user.id, league._id).then((userUpdated) => {
+        log.info(`El usuario con id [${req.user.id}] ha sido actualizado con su nueva liga`)
+        res.status(201).send({ message: "Liga creada", league: league });
+      })
+      
     });
   })
 );
@@ -109,11 +102,10 @@ leagueRouter.put(
 );
 
 leagueRouter.delete(
-  "/:id/:idT",
+  "/:id",
   [jwtAuthenticate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
-    let idTournament = req.params.idT;
     let deleteLeague;
 
     deleteLeague = await leagueController.foundOneLeague({ id: id });
@@ -125,10 +117,11 @@ leagueRouter.delete(
 
     let leagueRemoved = await leagueController.deleteLeague(id);
     log.debug(`La liga con id [${id}] ha sido eliminada con exito`);
-    tournamentController.deleteLeague(idTournament, id).then((tournamentUpdated) => {
+    userController.deleteLeague(req.user.id, id).then((userUpdated) => {
+      log.info(`Usuario con id [${req.user.id}] fue actualizado y se elimino su liga`)
       res.status(200).send({ message: "Liga eliminada", league: leagueRemoved });
-      log.debug(`La liga fue eliminada en el torneo asignado con id [${idTournament}]`)
     })
+    
   })
 );
 

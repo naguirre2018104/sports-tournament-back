@@ -47,12 +47,13 @@ reportRouter.get(
 );
 
 reportRouter.post(
-  "/create/:idL/:idT/:idS",
+  "/create/:idL/:idT/:idS/:idJ",
   [jwtAuthenticate, validateReport],
   procesarErrores(async (req, res) => {
     let newReport = req.body;
     let goals = req.body.goals;
     let goalsAgainst = req.body.goalsAgainst;
+    let idJourney = req.params.idJ;
     let idLeague = req.params.idL;
     let idTeam = req.params.idT;
     let idSoccerGame = req.params.idS;

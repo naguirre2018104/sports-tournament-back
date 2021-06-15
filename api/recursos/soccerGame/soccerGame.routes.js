@@ -3,9 +3,9 @@ const passport = require("passport");
 
 const log = require("../../../utils/logger");
 const validateSoccerGame = require("./soccerGame.validate").validateSoccerGame;
-const validateUpdate = require('./soccerGame.validate').validateUpdate;
+const validateUpdate = require("./soccerGame.validate").validateUpdate;
 const soccerGameController = require("./soccerGame.controller");
-const matchDayController = require("../matchDay/matchDay.controller");
+const journeyController = require("../journey/journey.controller");
 const procesarErrores = require("../../libs/errorHandler").procesarErrores;
 const {
   SoccerGameDataAlreadyInUse,
@@ -37,15 +37,15 @@ soccerGameRouter.get(
 );
 
 soccerGameRouter.post(
-  "/create/:idMD/:idT1/:idT2",
+  "/create/:idT1/:idT2/:idJ",
   [jwtAuthenticate, validateSoccerGame],
   procesarErrores(async (req, res) => {
     let newSoccerGame = req.body;
     let goalsTeamOne = req.body.goalsTeamOne;
     let goalsTeamTwo = req.body.goalsTeamTwo;
-    let idMatchDay = req.params.idMD;
     let idTeamOne = req.params.idT1;
     let idTeamTwo = req.params.idT2;
+    let idJourney = req.params.idJ;
     let soccerGameExisting;
 
     soccerGameExisting = await soccerGameController.foundOneSoccerGame({
@@ -69,18 +69,14 @@ soccerGameRouter.post(
       )
       .then((soccerGame) => {
         log.debug(`El partido fue creado`);
-        matchDayController
-          .setSoccerGame(idMatchDay, soccerGame.id)
-          .then((matchDayUpdated) => {
-            res
-              .status(201)
-              .send({
-                message: "El partido fue creado con exito",
-                soccerGame: soccerGame,
-              });
-            log.info(
-              `El dia del partido con id [${idMatchDay}] ha sido actualizado con un partido`
-            );
+        journeyController
+          .setSoccerGame(idJourney, soccerGame._id)
+          .then((journeyUpdated) => {
+            log.info(`La jornada con id [${idJourney}] ha sido actualizada`);
+            res.status(201).send({
+              message: "El partido fue creado con exito",
+              soccerGame: soccerGame,
+            });
           });
       });
   })
@@ -104,26 +100,21 @@ soccerGameRouter.put(
       throw new SoccerGameDoesNotExist();
     }
 
-    soccerGameController
-      .updateSoccerGame(
-        id,
-        req.body
-      )
-      .then((soccerGame) => {
-        res
-          .status(200)
-          .send({ message: "Partido actualizado", soccerGame: soccerGame });
-        log.info(`El partido con id [${id}] ha sido actualizado`);
-      });
+    soccerGameController.updateSoccerGame(id, req.body).then((soccerGame) => {
+      res
+        .status(200)
+        .send({ message: "Partido actualizado", soccerGame: soccerGame });
+      log.info(`El partido con id [${id}] ha sido actualizado`);
+    });
   })
 );
 
 soccerGameRouter.delete(
-  "/:id/:idM",
+  "/:id/:idJ",
   [jwtAuthenticate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
-    let idMatchDay = req.params.idM;
+    let idJourney = req.params.idJ;
     let soccerGameDelete;
 
     soccerGameDelete = await soccerGameController.foundOneSoccerGame({
@@ -139,13 +130,13 @@ soccerGameRouter.delete(
 
     let soccerGameRemoved = await soccerGameController.deleteSoccerGame(id);
     log.debug(`El partido con id [${id}] ha sido eliminado con exito`);
-    matchDayController.deleteSoccerGame(idMatchDay, id).then((matchDayUpdated) => {
-      res
-      .status(200)
-      .send({ message: "Partido eliminado", soccerGame: soccerGameRemoved });
-      log.debug(`El partido fue eliminado en el dia del partido con id [${idMatchDay}]`)
-    })
-    
+    journeyController.deleteSoccerGame(idJourney, id).then((journeyUpdated) => {
+      log.info(`La jornada con id [${id}] ha sido actualizada`);
+      res.status(200).send({
+        message: "Partido eliminado",
+        soccerGame: soccerGameRemoved,
+      });
+    });
   })
 );
 

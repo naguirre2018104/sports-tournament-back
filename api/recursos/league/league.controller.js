@@ -22,14 +22,6 @@ function updateLeague(id, league) {
   return League.findOneAndUpdate({ _id: id }, { ...league }, { new: true });
 }
 
-function setUser(id, user) {
-  return League.findOneAndUpdate(
-    { _id: id },
-    { $push: { user: user } },
-    { new: true }
-  );
-}
-
 function setTeam(id, team) {
   return League.findOneAndUpdate(
     { _id: id },
@@ -38,13 +30,7 @@ function setTeam(id, team) {
   );
 }
 
-function setMatchesTeams(id, matchesTeam) {
-  return League.findOneAndUpdate(
-    { _id: id },
-    { $push: { matchesTeams: matchesTeam } },
-    { new: true }
-  );
-}
+
 
 function setReports(id, report) {
   return League.findOneAndUpdate(
@@ -58,14 +44,6 @@ function deleteTeam(id, team) {
   return League.findOneAndUpdate(
     { _id: id },
     { $pull: { teams: team } },
-    { new: true }
-  );
-}
-
-function deleteMatchesTeams(id, matchesTeam) {
-  return League.findOneAndUpdate(
-    { _id: id },
-    { $pull: { matchesTeams: matchesTeam } },
     { new: true }
   );
 }
@@ -120,13 +98,10 @@ module.exports = {
   foundLeague,
   updateLeague,
   deleteLeague,
-  setUser,
   setTeam,
-  setMatchesTeams,
   setReports,
   existingLeague,
   foundOneLeague,
   deleteTeam,
   deleteReport,
-  deleteMatchesTeams
 };

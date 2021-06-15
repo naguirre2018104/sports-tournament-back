@@ -4,11 +4,12 @@ function foundReport(){
     return Report.find({}).populate('league')
 }
 
-function createReport(report, league, team, soccerGame, goalDifference){
+function createReport(report, journey, league, team, soccerGame, goalDifference){
     return new Report({
         league: league,
         teamsReport: [{
             team: team,
+            journey: journey,
             goals: report.goals,
             goalsAgainst: report.goalsAgainst,
             goalDifference: goalDifference,

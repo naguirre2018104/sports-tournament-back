@@ -5,6 +5,7 @@ const reportSchema = new mongoose.Schema({
   teamsReport: [
     {
       team: { type: mongoose.Schema.ObjectId, ref: "team" },
+      journey: { type: mongoose.Schema.ObjectId, ref: "journey" },
       goals: {
         type: Number,
         required: [true, "Se necesita los goles anotados"],
