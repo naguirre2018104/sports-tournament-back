@@ -78,7 +78,7 @@ journeyRouter.post(
 journeyRouter.put(
   "/:id",
   [jwtAuthenticate, validarId, validateJourney],
-  procesarErrores((req, res) => {
+  procesarErrores( async(req, res) => {
     let id = req.params.id;
     let updateJourney;
 
