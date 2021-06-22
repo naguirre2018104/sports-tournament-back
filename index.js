@@ -14,7 +14,6 @@ const userRouter = require("./api/recursos/user/user.routes");
 const journeyRouter = require("./api/recursos/journey/journey.routes");
 const leagueRouter = require("./api/recursos/league/league.routes");
 const teamRouter = require("./api/recursos/team/team.router");
-const matchDayRouter = require("./api/recursos/matchDay/matchDay.routes");
 const soccerGameRouter = require("./api/recursos/soccerGame/soccerGame.routes");
 const reportRouter = require("./api/recursos/report/report.routes");
 
@@ -49,7 +48,6 @@ app.use("/user", userRouter);
 app.use("/journey", journeyRouter);
 app.use("/league", leagueRouter);
 app.use("/team", teamRouter);
-app.use("/matchDay", matchDayRouter);
 app.use("/soccerGame", soccerGameRouter);
 app.use("/report", reportRouter);
 
@@ -63,7 +61,6 @@ if (config.ambiente === "prod") {
 
 const server = app.listen(config.puerto, () => {
   log.info("Escuchando en el puerto 3000");
-  userController.createUserAdmin();
 });
 
 module.exports = {

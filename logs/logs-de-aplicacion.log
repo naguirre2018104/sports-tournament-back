@@ -15215,3 +15215,24 @@ info: 2021-06-04T17:54:35.422Z Escuchando en el puerto 3000
 info: 2021-06-04T17:54:35.455Z El usuario administrador por defecto ya esta creado
 info: 2021-06-04T23:01:31.492Z Escuchando en el puerto 3000
 info: 2021-06-04T23:01:31.519Z El usuario administrador por defecto ya esta creado
+error: 2021-06-22T03:57:29.839Z uncaughtException: Cannot find module './api/recursos/matchDay/matchDay.routes'
+Require stack:
+- C:\Users\ferna\Documents\Projectos KINAL\sport-tournament-backend\index.js
+Error: Cannot find module './api/recursos/matchDay/matchDay.routes'
+Require stack:
+- C:\Users\ferna\Documents\Projectos KINAL\sport-tournament-backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\sport-tournament-backend\index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47 {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js"]},"stack":"Error: Cannot find module './api/recursos/matchDay/matchDay.routes'\nRequire stack:\n- C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js:17:24)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Mon Jun 21 2021 21:57:29 GMT-0600 (hora estándar central)","process":{"pid":17492,"uid":null,"gid":null,"cwd":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js"],"memoryUsage":{"rss":65585152,"heapTotal":56143872,"heapUsed":29915824,"external":20393991,"arrayBuffers":18815937}},"os":{"loadavg":[0,0,0],"uptime":533452},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":880,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":725,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js","function":null,"line":17,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: 2021-06-22T03:57:45.151Z Escuchando en el puerto 3000
+info: 2021-06-22T03:57:46.015Z El usuario administrador por defecto ya esta creado
+info: 2021-06-22T03:57:46.018Z Usuario administrador por defecto creado con exito
+info: 2021-06-22T03:58:06.326Z Escuchando en el puerto 3000
