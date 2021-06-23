@@ -3,15 +3,14 @@ const fileType = require('file-type')
 const log = require("./../../../utils/logger");
 
 const blueprintUser = Joi.object({
-  username: Joi.string().alphanum().min(4).max(40).required(),
+  username: Joi.string().alphanum().max(40).required(),
   password: Joi.string().min(6).max(200).required(),
   name: Joi.string().min(4).max(100).required(),
   lastname: Joi.string().min(4).max(150).required(),
   role: Joi.string().valid("ROLE_ADMIN", "ROLE_CLIENT").required(),
   img: Joi.optional().allow(""),
   history: Joi.array(),
-  tournamentsUser: Joi.array(),
-  tournamentsAdmin: Joi.array(),
+  leagues: Joi.array(),
 });
 
 const CONTENT_TYPES_PERMIT = ['image/jpeg', 'image/jpg', 'image/png']
@@ -66,8 +65,7 @@ const blueprintLogin = Joi.object({
   role: Joi.string().valid("ROLE_ADMIN", "ROLE_CLIENT").allow(""),
   img: Joi.optional().allow(""),
   history: Joi.array(),
-  tournamentsUser: Joi.array(),
-  tournamentsAdmin: Joi.array(),
+  leagues: Joi.array(),
 });
 
 let validateLogin = (req, res, next) => {
@@ -92,9 +90,13 @@ let validateLogin = (req, res, next) => {
 };
 
 const blueprintUpdate = Joi.object({
-  username: Joi.string().min(4).max(40).required(),
+  username: Joi.string().max(40).required(),
   name: Joi.string().min(4).max(100).required(),
   lastname: Joi.string().min(4).max(150).required(),
+  role: Joi.string().allow("").optional(),
+  img: Joi.optional().allow(""),
+  history: Joi.array(),
+  leagues: Joi.array(),
 });
 
 let validateUpdate = (req, res, next) => {
