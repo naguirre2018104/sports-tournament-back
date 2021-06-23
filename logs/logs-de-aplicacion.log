@@ -15215,3 +15215,257 @@ info: 2021-06-04T17:54:35.422Z Escuchando en el puerto 3000
 info: 2021-06-04T17:54:35.455Z El usuario administrador por defecto ya esta creado
 info: 2021-06-04T23:01:31.492Z Escuchando en el puerto 3000
 info: 2021-06-04T23:01:31.519Z El usuario administrador por defecto ya esta creado
+error: 2021-06-19T22:22:25.984Z uncaughtException: await is only valid in async function
+C:\Software Deportivo\Backend\api\recursos\journey\journey.routes.js:85
+    updateJourney = await journeyController.foundOneJourney({ id: id });
+                    ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Software Deportivo\Backend\index.js:14:23)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47 {"error":{},"stack":"C:\\Software Deportivo\\Backend\\api\\recursos\\journey\\journey.routes.js:85\n    updateJourney = await journeyController.foundOneJourney({ id: id });\n                    ^^^^^\n\nSyntaxError: await is only valid in async function\n    at wrapSafe (internal/modules/cjs/loader.js:979:16)\n    at Module._compile (internal/modules/cjs/loader.js:1027:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\index.js:14:23)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Sat Jun 19 2021 16:22:24 GMT-0600 (hora estándar central)","process":{"pid":8292,"uid":null,"gid":null,"cwd":"C:\\Software Deportivo\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Software Deportivo\\Backend\\index.js"],"memoryUsage":{"rss":67944448,"heapTotal":54599680,"heapUsed":30725472,"external":21015055,"arrayBuffers":19437001}},"os":{"loadavg":[0,0,0],"uptime":531412},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":979,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1027,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":23,"file":"C:\\Software Deportivo\\Backend\\index.js","function":null,"line":14,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: 2021-06-22T03:18:46.885Z uncaughtException: await is only valid in async function
+C:\Software Deportivo\Backend\api\recursos\journey\journey.routes.js:85
+    updateJourney = await journeyController.foundOneJourney({ id: id });
+                    ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Software Deportivo\Backend\index.js:14:23)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"error":{},"stack":"C:\\Software Deportivo\\Backend\\api\\recursos\\journey\\journey.routes.js:85\n    updateJourney = await journeyController.foundOneJourney({ id: id });\n                    ^^^^^\n\nSyntaxError: await is only valid in async function\n    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\index.js:14:23)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Mon Jun 21 2021 21:18:46 GMT-0600 (hora estándar central)","process":{"pid":4368,"uid":null,"gid":null,"cwd":"C:\\Software Deportivo\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Software Deportivo\\Backend\\index.js"],"memoryUsage":{"rss":68251648,"heapTotal":54870016,"heapUsed":31715640,"external":21065858,"arrayBuffers":19451012}},"os":{"loadavg":[0,0,0],"uptime":19796},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1001,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1049,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Software Deportivo\\Backend\\index.js","function":null,"line":14,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: 2021-06-22T03:48:32.284Z uncaughtException: Cannot find module './api/recursos/matchDay/matchDay.routes'
+Require stack:
+- C:\Software Deportivo\Backend\index.js
+Error: Cannot find module './api/recursos/matchDay/matchDay.routes'
+Require stack:
+- C:\Software Deportivo\Backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Software Deportivo\Backend\index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Software Deportivo\\Backend\\index.js"]},"stack":"Error: Cannot find module './api/recursos/matchDay/matchDay.routes'\nRequire stack:\n- C:\\Software Deportivo\\Backend\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\index.js:17:24)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Mon Jun 21 2021 21:48:31 GMT-0600 (hora estándar central)","process":{"pid":11400,"uid":null,"gid":null,"cwd":"C:\\Software Deportivo\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Software Deportivo\\Backend\\index.js"],"memoryUsage":{"rss":69656576,"heapTotal":55656448,"heapUsed":33042864,"external":21086941,"arrayBuffers":19472095}},"os":{"loadavg":[0,0,0],"uptime":21581},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":902,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":746,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":24,"file":"C:\\Software Deportivo\\Backend\\index.js","function":null,"line":17,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: 2021-06-22T03:53:16.388Z uncaughtException: matchDayRouter is not defined
+ReferenceError: matchDayRouter is not defined
+    at Object.<anonymous> (C:\Software Deportivo\Backend\index.js:51:22)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"error":{},"stack":"ReferenceError: matchDayRouter is not defined\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\index.js:51:22)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Mon Jun 21 2021 21:53:16 GMT-0600 (hora estándar central)","process":{"pid":5124,"uid":null,"gid":null,"cwd":"C:\\Software Deportivo\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Software Deportivo\\Backend\\index.js"],"memoryUsage":{"rss":71053312,"heapTotal":55394304,"heapUsed":34462672,"external":21104322,"arrayBuffers":19489476}},"os":{"loadavg":[0,0,0],"uptime":21865},"trace":[{"column":22,"file":"C:\\Software Deportivo\\Backend\\index.js","function":null,"line":51,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: 2021-06-22T03:53:38.842Z Escuchando en el puerto 3000
+info: 2021-06-22T03:53:39.490Z Usuario administrador por defecto creado con exito
+info: 2021-06-22T03:54:14.287Z Usuario admin no completo autenticacion. Contraseña incorrecta
+info: 2021-06-22T03:54:14.327Z ::1 - POST /user/login HTTP/1.1 400 293 - 338.492 ms
+info: 2021-06-22T03:54:36.451Z Usuario admin no completo autenticacion. Contraseña incorrecta
+info: 2021-06-22T03:54:36.466Z ::1 - POST /user/login HTTP/1.1 400 293 - 163.170 ms
+info: 2021-06-22T03:58:24.994Z Usuario admin no completo autenticacion. Contraseña incorrecta
+info: 2021-06-22T03:58:25.000Z ::1 - POST /user/login HTTP/1.1 400 293 - 140.041 ms
+info: 2021-06-22T03:58:49.647Z ::1 - POST /user/create HTTP/1.1 400 321 - 41.537 ms
+info: 2021-06-22T03:59:36.894Z ::1 - POST /user/create HTTP/1.1 400 321 - 3.981 ms
+info: 2021-06-22T04:00:19.848Z ::1 - POST /user/create HTTP/1.1 400 321 - 4.324 ms
+info: 2021-06-22T04:00:58.014Z ::1 - POST /user/create HTTP/1.1 201 264 - 219.693 ms
+info: 2021-06-22T04:05:37.753Z ::1 - POST /user/create HTTP/1.1 400 321 - 277.069 ms
+info: 2021-06-22T04:06:43.307Z ::1 - POST /user/create HTTP/1.1 400 321 - 5.784 ms
+info: 2021-06-22T04:07:19.609Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-22T04:07:19.616Z ::1 - POST /user/login HTTP/1.1 200 419 - 527.895 ms
+info: 2021-06-22T04:08:16.437Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-22T04:08:16.456Z ::1 - POST /user/login HTTP/1.1 200 419 - 308.464 ms
+info: 2021-06-22T04:08:28.565Z Usuario noelale no completo autenticacion. Contraseña incorrecta
+info: 2021-06-22T04:08:28.583Z ::1 - POST /user/login HTTP/1.1 400 293 - 295.303 ms
+info: 2021-06-22T04:09:25.795Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-22T04:09:25.801Z ::1 - POST /user/login HTTP/1.1 200 419 - 196.875 ms
+info: 2021-06-22T04:09:31.620Z Usuario noelale no completo autenticacion. Contraseña incorrecta
+info: 2021-06-22T04:09:31.625Z ::1 - POST /user/login HTTP/1.1 400 293 - 132.925 ms
+info: 2021-06-22T04:11:00.609Z ::1 - POST /user/create HTTP/1.1 400 321 - 11.681 ms
+info: 2021-06-22T04:11:07.389Z ::1 - POST /user/create HTTP/1.1 201 267 - 330.809 ms
+info: 2021-06-22T04:16:26.627Z ::1 - POST /user/create HTTP/1.1 400 321 - 14.795 ms
+info: 2021-06-22T04:18:46.333Z Usuario [mildred] completo la autenticacion con exito
+info: 2021-06-22T04:18:46.345Z ::1 - POST /user/login HTTP/1.1 200 422 - 301.768 ms
+info: 2021-06-22T04:18:49.845Z Usuario mildred no completo autenticacion. Contraseña incorrecta
+info: 2021-06-22T04:18:49.851Z ::1 - POST /user/login HTTP/1.1 400 293 - 161.508 ms
+info: 2021-06-22T04:26:31.837Z Usuario noelale no completo autenticacion. Contraseña incorrecta
+info: 2021-06-22T04:26:31.865Z ::1 - POST /user/login HTTP/1.1 400 293 - 210.164 ms
+info: 2021-06-22T04:26:37.129Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-22T04:26:37.135Z ::1 - POST /user/login HTTP/1.1 200 419 - 187.264 ms
+info: 2021-06-22T04:28:03.944Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-22T04:28:03.991Z ::1 - POST /user/login HTTP/1.1 200 419 - 162.180 ms
+info: 2021-06-22T05:03:20.380Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-22T05:03:20.713Z ::1 - POST /user/login HTTP/1.1 200 419 - 891.922 ms
+info: 2021-06-22T05:03:58.147Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-22T05:03:58.182Z ::1 - POST /user/login HTTP/1.1 200 419 - 151.308 ms
+info: 2021-06-22T06:09:22.825Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-22T06:09:23.404Z ::1 - POST /user/login HTTP/1.1 200 419 - 7833.586 ms
+info: 2021-06-23T02:19:43.905Z Escuchando en el puerto 3000
+info: 2021-06-23T02:19:44.918Z El usuario administrador por defecto ya esta creado
+info: 2021-06-23T02:19:44.971Z Usuario administrador por defecto creado con exito
+info: 2021-06-23T02:27:36.321Z Usuario noelale no completo autenticacion. Contraseña incorrecta
+info: 2021-06-23T02:27:36.358Z ::1 - POST /user/login HTTP/1.1 400 293 - 235.347 ms
+info: 2021-06-23T02:27:42.391Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-23T02:27:42.434Z ::1 - POST /user/login HTTP/1.1 200 419 - 544.102 ms
+info: 2021-06-23T02:27:59.102Z Usuario admin no completo autenticacion. Contraseña incorrecta
+info: 2021-06-23T02:27:59.124Z ::1 - POST /user/login HTTP/1.1 400 293 - 142.430 ms
+info: 2021-06-23T02:28:01.588Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-23T02:28:01.596Z ::1 - POST /user/login HTTP/1.1 200 404 - 166.382 ms
+info: 2021-06-23T02:31:04.383Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-23T02:31:04.453Z ::1 - POST /user/login HTTP/1.1 200 404 - 136.191 ms
+info: 2021-06-23T02:31:21.794Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-23T02:31:21.804Z ::1 - POST /user/login HTTP/1.1 200 419 - 138.669 ms
+info: 2021-06-23T02:32:36.513Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-23T02:32:36.519Z ::1 - POST /user/login HTTP/1.1 200 419 - 150.129 ms
+info: 2021-06-23T02:32:51.898Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-23T02:32:51.913Z ::1 - POST /user/login HTTP/1.1 200 404 - 150.793 ms
+info: 2021-06-23T02:33:07.239Z Usuario [aisaac] no existe. No puede ser autenticado
+info: 2021-06-23T02:33:07.256Z ::1 - POST /user/login HTTP/1.1 400 366 - 19.441 ms
+info: 2021-06-23T02:33:10.311Z Usuario [aisaac] no existe. No puede ser autenticado
+info: 2021-06-23T02:33:10.322Z ::1 - POST /user/login HTTP/1.1 400 366 - 14.338 ms
+info: 2021-06-23T02:34:19.713Z ::1 - POST /user/create HTTP/1.1 400 321 - 16.946 ms
+info: 2021-06-23T02:34:39.990Z ::1 - POST /user/create HTTP/1.1 201 264 - 533.948 ms
+info: 2021-06-23T02:34:54.710Z Usuario aisaac no completo autenticacion. Contraseña incorrecta
+info: 2021-06-23T02:34:54.719Z ::1 - POST /user/login HTTP/1.1 400 293 - 152.800 ms
+info: 2021-06-23T02:34:57.351Z Usuario [aisaac] completo la autenticacion con exito
+info: 2021-06-23T02:34:57.359Z ::1 - POST /user/login HTTP/1.1 200 419 - 138.447 ms
+info: 2021-06-23T02:44:08.772Z Usuario admin no completo autenticacion. Contraseña incorrecta
+info: 2021-06-23T02:44:08.782Z ::1 - POST /user/login HTTP/1.1 400 293 - 166.773 ms
+info: 2021-06-23T02:44:12.972Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-23T02:44:12.980Z ::1 - POST /user/login HTTP/1.1 200 404 - 138.029 ms
+info: 2021-06-23T03:19:10.853Z Escuchando en el puerto 3000
+info: 2021-06-23T03:19:11.508Z El usuario administrador por defecto ya esta creado
+info: 2021-06-23T03:19:11.535Z Usuario administrador por defecto creado con exito
+info: 2021-06-23T03:21:18.537Z ::1 - GET /getUsers HTTP/1.1 404 147 - 43.249 ms
+info: 2021-06-23T03:21:46.254Z ::1 - GET /users/getUsers HTTP/1.1 404 153 - 3.641 ms
+info: 2021-06-23T03:21:52.096Z ::1 - GET /user/getUsers HTTP/1.1 200 915 - 83.952 ms
+info: 2021-06-23T03:21:52.496Z ::1 - GET /favicon.ico HTTP/1.1 404 150 - 42.270 ms
+info: 2021-06-23T03:31:29.393Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 1330.032 ms
+info: 2021-06-23T03:33:35.397Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 16.137 ms
+info: 2021-06-23T03:34:14.490Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 86.526 ms
+info: 2021-06-23T03:39:54.375Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 554.281 ms
+info: 2021-06-23T03:43:53.447Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 377.531 ms
+info: 2021-06-23T03:44:28.569Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 33.776 ms
+info: 2021-06-23T03:45:55.503Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 280.365 ms
+info: 2021-06-23T03:46:20.169Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 99.226 ms
+info: 2021-06-23T03:47:07.903Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 35.698 ms
+info: 2021-06-23T03:59:40.927Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 5601.277 ms
+info: 2021-06-23T03:59:44.196Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 57.100 ms
+info: 2021-06-23T04:00:25.907Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 26.917 ms
+info: 2021-06-23T04:01:50.921Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 49.885 ms
+info: 2021-06-23T04:02:16.638Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 308.152 ms
+info: 2021-06-23T04:05:20.822Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 30.963 ms
+info: 2021-06-23T04:05:38.269Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 44.935 ms
+info: 2021-06-23T04:06:54.720Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 693.560 ms
+info: 2021-06-23T04:07:34.006Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 104.390 ms
+info: 2021-06-23T04:09:10.377Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 18.105 ms
+info: 2021-06-23T04:09:36.950Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 781.235 ms
+info: 2021-06-23T04:10:39.725Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 15.967 ms
+info: 2021-06-23T04:10:49.205Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 35.511 ms
+info: 2021-06-23T04:11:32.428Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 88.281 ms
+info: 2021-06-23T04:12:13.366Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 26.552 ms
+info: 2021-06-23T04:12:30.251Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 51.283 ms
+info: 2021-06-23T04:13:10.364Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 14.582 ms
+info: 2021-06-23T04:13:34.346Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 133.974 ms
+info: 2021-06-23T04:13:42.347Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 46.332 ms
+info: 2021-06-23T04:14:24.383Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 29.251 ms
+info: 2021-06-23T04:14:48.120Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 16.327 ms
+info: 2021-06-23T04:15:04.914Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 40.353 ms
+info: 2021-06-23T04:15:25.544Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 74.534 ms
+info: 2021-06-23T04:15:38.812Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 27.579 ms
+info: 2021-06-23T04:15:53.588Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 138.657 ms
+info: 2021-06-23T04:16:30.485Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 11.057 ms
+info: 2021-06-23T04:16:38.367Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 61.681 ms
+info: 2021-06-23T04:17:21.792Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 61.619 ms
+info: 2021-06-23T04:17:54.147Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 23.064 ms
+info: 2021-06-23T04:18:36.924Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 86.229 ms
+info: 2021-06-23T04:18:45.770Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 20.210 ms
+info: 2021-06-23T04:20:36.952Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 12.728 ms
+info: 2021-06-23T04:20:48.896Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 35.998 ms
+info: 2021-06-23T04:21:42.285Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 14.840 ms
+info: 2021-06-23T04:22:01.227Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 17.775 ms
+info: 2021-06-23T04:22:17.149Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 13.357 ms
+info: 2021-06-23T04:22:32.518Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 10.540 ms
+info: 2021-06-23T04:23:16.461Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 113.057 ms
+info: 2021-06-23T04:23:32.987Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 129.440 ms
+info: 2021-06-23T04:23:56.468Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 10.781 ms
+info: 2021-06-23T04:24:22.898Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 20.517 ms
+info: 2021-06-23T04:24:50.113Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 36.282 ms
+info: 2021-06-23T04:25:39.441Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 24.352 ms
+info: 2021-06-23T04:26:59.996Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 31.975 ms
+info: 2021-06-23T04:27:35.337Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 47.156 ms
+info: 2021-06-23T04:30:33.613Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 15.257 ms
+info: 2021-06-23T04:31:14.230Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 72.685 ms
+info: 2021-06-23T04:32:39.165Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 111.420 ms
+info: 2021-06-23T04:45:25.813Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 3511.975 ms
+info: 2021-06-23T04:47:09.879Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 68.287 ms
+info: 2021-06-23T04:48:03.621Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 41.876 ms
+info: 2021-06-23T04:56:11.611Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 19.453 ms
+info: 2021-06-23T04:56:37.218Z ::1 - POST /user/create HTTP/1.1 400 321 - 345.215 ms
+info: 2021-06-23T04:56:51.341Z ::1 - POST /user/create HTTP/1.1 201 260 - 1147.057 ms
+info: 2021-06-23T04:57:01.862Z ::1 - GET /user/getUsers HTTP/1.1 200 1140 - 19.069 ms
+info: 2021-06-23T04:57:28.971Z ::1 - POST /user/create HTTP/1.1 201 262 - 173.167 ms
+info: 2021-06-23T04:57:36.290Z ::1 - GET /user/getUsers HTTP/1.1 200 1367 - 39.602 ms
+info: 2021-06-23T04:59:50.759Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 32.646 ms
+info: 2021-06-23T05:00:10.373Z ::1 - POST /user/create HTTP/1.1 201 269 - 303.845 ms
+info: 2021-06-23T05:00:10.476Z ::1 - GET /user/getUsers HTTP/1.1 200 1601 - 23.111 ms
+info: 2021-06-23T05:01:05.970Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 27.497 ms
+info: 2021-06-23T05:01:56.061Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 21.888 ms
+info: 2021-06-23T05:03:41.016Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 15.767 ms
+info: 2021-06-23T05:04:06.579Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 36.088 ms
+info: 2021-06-23T05:04:46.521Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 28.973 ms
+info: 2021-06-23T05:05:54.272Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 24.198 ms
+info: 2021-06-23T05:10:21.615Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 62.870 ms
+info: 2021-06-23T05:10:39.214Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 1068.622 ms
+info: 2021-06-23T05:14:13.593Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 23.653 ms
+info: 2021-06-23T05:17:06.102Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 41.253 ms
+info: 2021-06-23T05:18:10.400Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 26.281 ms
+info: 2021-06-23T05:18:55.955Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 206.199 ms
+info: 2021-06-23T05:19:23.291Z ::1 - POST /user/create HTTP/1.1 201 266 - 1760.733 ms
+info: 2021-06-23T05:19:35.555Z ::1 - GET /user/getUsers HTTP/1.1 200 1832 - 40.926 ms
+info: 2021-06-23T05:21:31.448Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 259.212 ms
+info: 2021-06-23T05:22:58.149Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 34.159 ms
+info: 2021-06-23T05:25:51.500Z Escuchando en el puerto 3000
+info: 2021-06-23T05:25:51.899Z El usuario administrador por defecto ya esta creado
+info: 2021-06-23T05:25:51.918Z Usuario administrador por defecto creado con exito
+info: 2021-06-23T05:26:58.991Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 393.247 ms
+info: 2021-06-23T05:30:24.528Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 1404.350 ms
+info: 2021-06-23T05:40:48.623Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 2725.899 ms
+info: 2021-06-23T05:41:23.237Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 547.849 ms
+info: 2021-06-23T05:42:47.512Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 15.139 ms
+info: 2021-06-23T05:44:42.419Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 112.519 ms
+info: 2021-06-23T05:44:52.280Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 0.609 ms
+info: 2021-06-23T05:45:15.901Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 79.679 ms
+info: 2021-06-23T05:45:27.980Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 0.702 ms
+info: 2021-06-23T05:49:17.531Z Escuchando en el puerto 3000
+info: 2021-06-23T05:49:18.071Z El usuario administrador por defecto ya esta creado
+info: 2021-06-23T05:49:18.091Z Usuario administrador por defecto creado con exito
+info: 2021-06-23T05:49:39.838Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 7.148 ms
+info: 2021-06-23T06:02:06.711Z Escuchando en el puerto 3000
+info: 2021-06-23T06:02:06.882Z El usuario administrador por defecto ya esta creado
+info: 2021-06-23T06:02:06.902Z Usuario administrador por defecto creado con exito
+info: 2021-06-23T06:02:38.801Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 5.463 ms

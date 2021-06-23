@@ -43,7 +43,7 @@ function validarId(req, res, next) {
 }
 
 userRouter.get(
-  "/",
+  "/getUsers",
   procesarErrores((req, res) => {
     return userController.foundUser().then((users) => {
       res.send({ users: users });
@@ -129,12 +129,13 @@ userRouter.post(
 );
 
 userRouter.put(
-  "/:id",
+  "/updateUser/:id",
   [jwtAuthenticate, validarId, validateUpdate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
     let idUser = req.user.id;
     let updateUser;
+    let role = req.user.role;
 
     updateUser = await userController.foundOneUser({ id: id });
 
