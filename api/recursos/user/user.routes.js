@@ -150,7 +150,7 @@ userRouter.put(
 );
 
 userRouter.delete(
-  "/:id",
+  "/deleteUser/:id",
   [jwtAuthenticate, validarId],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
@@ -166,8 +166,9 @@ userRouter.delete(
     }
 
     let idUser = req.user.id;
+    let roleUser = req.user.role;
 
-    if (idUser !== id) {
+    if (idUser !== id && roleUser !== 'ROLE_ADMIN') {
       log.info(`El usuario con id [${idUser}] no coincide con el id enviado`);
       throw new IncorrectCredentials(`Los id no coinciden`);
     }

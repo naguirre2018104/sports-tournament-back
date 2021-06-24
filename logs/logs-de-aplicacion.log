@@ -15555,3 +15555,113 @@ info: 2021-06-23T07:14:35.460Z Usuario admin suministro un token valido. Autenti
 info: 2021-06-23T07:14:35.759Z Usuario con id [60d29dbf0e715721b8a9a5e8] ha sido actualizado con exito
 info: 2021-06-23T07:14:35.769Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 200 268 - 405.321 ms
 info: 2021-06-23T07:14:40.796Z ::1 - GET /user/getUsers HTTP/1.1 200 2061 - 58.673 ms
+info: 2021-06-24T06:13:53.481Z Escuchando en el puerto 3000
+info: 2021-06-24T06:26:19.606Z Usuario admin no completo autenticacion. Contraseña incorrecta
+info: 2021-06-24T06:26:19.637Z ::1 - POST /user/login HTTP/1.1 400 293 - 462.189 ms
+info: 2021-06-24T06:26:24.791Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-24T06:26:24.821Z ::1 - POST /user/login HTTP/1.1 200 404 - 189.879 ms
+info: 2021-06-24T06:26:28.952Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 96.236 ms
+info: 2021-06-24T06:27:17.905Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 52.392 ms
+info: 2021-06-24T06:29:30.968Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 24.516 ms
+info: 2021-06-24T06:32:26.037Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 26.450 ms
+info: 2021-06-24T06:33:40.737Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 49.594 ms
+info: 2021-06-24T06:33:58.056Z ::1 - POST /user/create HTTP/1.1 201 264 - 484.023 ms
+info: 2021-06-24T06:34:01.983Z ::1 - GET /user/getUsers HTTP/1.1 200 2290 - 40.714 ms
+info: 2021-06-24T06:34:13.342Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:34:13.371Z ::1 - PUT /user/updateUser/undefined HTTP/1.1 400 67 - 309.739 ms
+info: 2021-06-24T06:34:26.312Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:34:26.335Z ::1 - PUT /user/updateUser/undefined HTTP/1.1 400 67 - 20.886 ms
+info: 2021-06-24T06:34:38.891Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:34:38.900Z ::1 - PUT /user/updateUser/undefined HTTP/1.1 400 67 - 16.944 ms
+info: 2021-06-24T06:34:53.594Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 42.848 ms
+info: 2021-06-24T06:36:21.179Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 21.095 ms
+info: 2021-06-24T06:38:22.693Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 25.457 ms
+info: 2021-06-24T06:38:36.190Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 20.337 ms
+info: 2021-06-24T06:38:44.719Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:38:45.167Z Usuario con id [60d4275574ba0921e40c39ee] ha sido actualizado con exito
+info: 2021-06-24T06:38:45.170Z ::1 - PUT /user/updateUser/60d4275574ba0921e40c39ee HTTP/1.1 200 270 - 449.738 ms
+info: 2021-06-24T06:38:51.673Z ::1 - GET /user/getUsers HTTP/1.1 200 2291 - 27.156 ms
+info: 2021-06-24T06:39:07.491Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:39:07.539Z Usuario con id [60d2bf38d3e89919fc29ca75] ha sido actualizado con exito
+info: 2021-06-24T06:39:07.544Z ::1 - PUT /user/updateUser/60d2bf38d3e89919fc29ca75 HTTP/1.1 200 268 - 109.634 ms
+info: 2021-06-24T06:39:12.130Z ::1 - GET /user/getUsers HTTP/1.1 200 2292 - 35.371 ms
+info: 2021-06-24T06:39:19.797Z ::1 - PUT /user/deleteUser/60d4275574ba0921e40c39ee HTTP/1.1 404 179 - 34.390 ms
+info: 2021-06-24T06:39:30.880Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 25.886 ms
+info: 2021-06-24T06:42:54.331Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 31.863 ms
+info: 2021-06-24T06:43:06.813Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:43:06.912Z Usuario con id [60d4275574ba0921e40c39ee] ha sido actualizado con exito
+info: 2021-06-24T06:43:06.914Z ::1 - PUT /user/updateUser/60d4275574ba0921e40c39ee HTTP/1.1 200 272 - 76.291 ms
+info: 2021-06-24T06:43:11.956Z ::1 - GET /user/getUsers HTTP/1.1 200 2294 - 158.211 ms
+info: 2021-06-24T06:43:18.070Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:43:18.136Z El usuario con id [60d299be28a1dbc036c8809b] no coincide con el id enviado
+info: 2021-06-24T06:43:18.181Z ::1 - DELETE /user/deleteUser/60d4275574ba0921e40c39ee HTTP/1.1 400 278 - 190.730 ms
+info: 2021-06-24T06:44:16.932Z Escuchando en el puerto 3000
+info: 2021-06-24T06:44:21.188Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:44:21.210Z El usuario con id [60d299be28a1dbc036c8809b] no coincide con el id enviado
+info: 2021-06-24T06:44:21.234Z ::1 - DELETE /user/deleteUser/60d4275574ba0921e40c39ee HTTP/1.1 400 242 - 268.360 ms
+info: 2021-06-24T06:47:32.184Z Escuchando en el puerto 3000
+info: 2021-06-24T06:47:36.627Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T06:47:36.755Z El usuario con id [60d4275574ba0921e40c39ee] fue eliminado
+info: 2021-06-24T06:47:36.772Z ::1 - DELETE /user/deleteUser/60d4275574ba0921e40c39ee HTTP/1.1 200 270 - 268.392 ms
+info: 2021-06-24T06:47:41.616Z ::1 - GET /user/getUsers HTTP/1.1 200 2062 - 32.076 ms
+info: 2021-06-24T06:51:25.011Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 34.442 ms
+info: 2021-06-24T06:52:13.730Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 24.913 ms
+info: 2021-06-24T06:53:51.767Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 27.158 ms
+info: 2021-06-24T06:55:15.165Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 36.919 ms
+info: 2021-06-24T06:55:30.375Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 27.830 ms
+info: 2021-06-24T06:55:49.105Z ::1 - POST /user/create HTTP/1.1 201 267 - 345.291 ms
+info: 2021-06-24T06:58:44.983Z ::1 - GET /user/getUsers HTTP/1.1 200 2294 - 56.800 ms
+info: 2021-06-24T06:59:24.212Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 21.442 ms
+info: 2021-06-24T07:00:50.052Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 34.388 ms
+info: 2021-06-24T07:01:16.111Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 24.105 ms
+info: 2021-06-24T07:01:42.317Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 29.746 ms
+info: 2021-06-24T07:01:53.925Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T07:01:54.153Z Usuario con id [60d42c74f1bed52e3087185d] ha sido actualizado con exito
+info: 2021-06-24T07:01:54.157Z ::1 - PUT /user/updateUser/60d42c74f1bed52e3087185d HTTP/1.1 200 271 - 513.280 ms
+info: 2021-06-24T07:02:10.330Z ::1 - GET /user/getUsers HTTP/1.1 200 2293 - 26.130 ms
+info: 2021-06-24T07:03:37.840Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 38.529 ms
+info: 2021-06-24T07:04:47.592Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 35.531 ms
+info: 2021-06-24T07:06:02.697Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 576.718 ms
+info: 2021-06-24T07:06:29.077Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 28.552 ms
+info: 2021-06-24T07:07:07.006Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 39.617 ms
+info: 2021-06-24T07:07:21.085Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T07:07:21.161Z Usuario con id [60d42c74f1bed52e3087185d] ha sido actualizado con exito
+info: 2021-06-24T07:07:21.206Z ::1 - PUT /user/updateUser/60d42c74f1bed52e3087185d HTTP/1.1 200 272 - 92.093 ms
+info: 2021-06-24T07:08:35.313Z ::1 - GET /user/getUsers HTTP/1.1 200 2294 - 27.505 ms
+info: 2021-06-24T07:08:55.012Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T07:08:55.146Z Usuario con id [60d42c74f1bed52e3087185d] ha sido actualizado con exito
+info: 2021-06-24T07:08:55.151Z ::1 - PUT /user/updateUser/60d42c74f1bed52e3087185d HTTP/1.1 200 271 - 176.218 ms
+info: 2021-06-24T07:10:55.693Z ::1 - GET /user/getUsers HTTP/1.1 200 2293 - 23.889 ms
+info: 2021-06-24T07:11:13.593Z ::1 - POST /user/create HTTP/1.1 201 266 - 275.837 ms
+info: 2021-06-24T07:14:18.914Z ::1 - GET /user/getUsers HTTP/1.1 200 2524 - 75.571 ms
+info: 2021-06-24T07:14:39.919Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 79.885 ms
+info: 2021-06-24T07:14:50.315Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T07:14:50.627Z Usuario con id [60d43011f1bed52e30871876] ha sido actualizado con exito
+info: 2021-06-24T07:14:50.631Z ::1 - PUT /user/updateUser/60d43011f1bed52e30871876 HTTP/1.1 200 271 - 372.619 ms
+info: 2021-06-24T07:14:50.913Z ::1 - GET /user/getUsers HTTP/1.1 200 2524 - 20.386 ms
+info: 2021-06-24T07:16:10.147Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 25.194 ms
+info: 2021-06-24T07:16:32.348Z ::1 - POST /user/create HTTP/1.1 201 265 - 289.388 ms
+info: 2021-06-24T07:18:11.696Z ::1 - GET /user/getUsers HTTP/1.1 200 2754 - 30.431 ms
+info: 2021-06-24T07:18:20.492Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 90.755 ms
+info: 2021-06-24T07:18:44.484Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 32.307 ms
+info: 2021-06-24T07:19:04.958Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T07:19:05.007Z El usuario con id [60d43150f1bed52e30871880] fue eliminado
+info: 2021-06-24T07:19:05.015Z ::1 - DELETE /user/deleteUser/60d43150f1bed52e30871880 HTTP/1.1 200 268 - 63.609 ms
+info: 2021-06-24T07:19:08.552Z ::1 - GET /user/getUsers HTTP/1.1 200 2524 - 38.350 ms
+info: 2021-06-24T07:22:46.277Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 25.656 ms
+info: 2021-06-24T07:23:07.516Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 54.805 ms
+info: 2021-06-24T07:23:22.341Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T07:23:22.365Z Usuario con id [60d42c74f1bed52e3087185d] ha sido actualizado con exito
+info: 2021-06-24T07:23:22.372Z ::1 - PUT /user/updateUser/60d42c74f1bed52e3087185d HTTP/1.1 200 270 - 53.212 ms
+info: 2021-06-24T07:23:44.496Z ::1 - POST /user/create HTTP/1.1 201 266 - 189.607 ms
+info: 2021-06-24T07:23:52.778Z ::1 - GET /user/getUsers HTTP/1.1 200 2754 - 50.645 ms
+info: 2021-06-24T07:23:56.530Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-24T07:23:56.622Z El usuario con id [60d43300f1bed52e3087188f] fue eliminado
+info: 2021-06-24T07:23:56.629Z ::1 - DELETE /user/deleteUser/60d43300f1bed52e3087188f HTTP/1.1 200 269 - 111.784 ms
+info: 2021-06-24T07:24:03.216Z ::1 - GET /user/getUsers HTTP/1.1 200 2523 - 56.888 ms
+info: 2021-06-24T07:25:08.750Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-24T07:25:08.801Z ::1 - POST /user/login HTTP/1.1 200 419 - 797.293 ms
+info: 2021-06-24T07:25:27.396Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-24T07:25:27.403Z ::1 - POST /user/login HTTP/1.1 200 404 - 161.677 ms
+info: 2021-06-24T07:25:32.057Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 87.748 ms
+info: 2021-06-24T07:25:33.521Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 26.652 ms
