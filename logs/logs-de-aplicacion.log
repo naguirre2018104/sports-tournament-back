@@ -15215,6 +15215,7 @@ info: 2021-06-04T17:54:35.422Z Escuchando en el puerto 3000
 info: 2021-06-04T17:54:35.455Z El usuario administrador por defecto ya esta creado
 info: 2021-06-04T23:01:31.492Z Escuchando en el puerto 3000
 info: 2021-06-04T23:01:31.519Z El usuario administrador por defecto ya esta creado
+<<<<<<< HEAD
 error: 2021-06-19T22:22:25.984Z uncaughtException: await is only valid in async function
 C:\Software Deportivo\Backend\api\recursos\journey\journey.routes.js:85
     updateJourney = await journeyController.foundOneJourney({ id: id });
@@ -15229,11 +15230,25 @@ SyntaxError: await is only valid in async function
     at Module.require (internal/modules/cjs/loader.js:952:19)
     at require (internal/modules/cjs/helpers.js:88:18)
     at Object.<anonymous> (C:\Software Deportivo\Backend\index.js:14:23)
+=======
+error: 2021-06-22T03:57:29.839Z uncaughtException: Cannot find module './api/recursos/matchDay/matchDay.routes'
+Require stack:
+- C:\Users\ferna\Documents\Projectos KINAL\sport-tournament-backend\index.js
+Error: Cannot find module './api/recursos/matchDay/matchDay.routes'
+Require stack:
+- C:\Users\ferna\Documents\Projectos KINAL\sport-tournament-backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\sport-tournament-backend\index.js:17:24)
+>>>>>>> 2b0158aef215505ed96ec7ce71e653d2aff6994a
     at Module._compile (internal/modules/cjs/loader.js:1063:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
     at Module.load (internal/modules/cjs/loader.js:928:32)
     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+<<<<<<< HEAD
     at internal/main/run_main_module.js:17:47 {"error":{},"stack":"C:\\Software Deportivo\\Backend\\api\\recursos\\journey\\journey.routes.js:85\n    updateJourney = await journeyController.foundOneJourney({ id: id });\n                    ^^^^^\n\nSyntaxError: await is only valid in async function\n    at wrapSafe (internal/modules/cjs/loader.js:979:16)\n    at Module._compile (internal/modules/cjs/loader.js:1027:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\index.js:14:23)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Sat Jun 19 2021 16:22:24 GMT-0600 (hora estándar central)","process":{"pid":8292,"uid":null,"gid":null,"cwd":"C:\\Software Deportivo\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Software Deportivo\\Backend\\index.js"],"memoryUsage":{"rss":67944448,"heapTotal":54599680,"heapUsed":30725472,"external":21015055,"arrayBuffers":19437001}},"os":{"loadavg":[0,0,0],"uptime":531412},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":979,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1027,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":23,"file":"C:\\Software Deportivo\\Backend\\index.js","function":null,"line":14,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
 error: 2021-06-22T03:18:46.885Z uncaughtException: await is only valid in async function
 C:\Software Deportivo\Backend\api\recursos\journey\journey.routes.js:85
@@ -15469,3 +15484,74 @@ info: 2021-06-23T06:02:06.711Z Escuchando en el puerto 3000
 info: 2021-06-23T06:02:06.882Z El usuario administrador por defecto ya esta creado
 info: 2021-06-23T06:02:06.902Z Usuario administrador por defecto creado con exito
 info: 2021-06-23T06:02:38.801Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 5.463 ms
+=======
+    at internal/main/run_main_module.js:17:47 {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js"]},"stack":"Error: Cannot find module './api/recursos/matchDay/matchDay.routes'\nRequire stack:\n- C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js:17:24)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Mon Jun 21 2021 21:57:29 GMT-0600 (hora estándar central)","process":{"pid":17492,"uid":null,"gid":null,"cwd":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js"],"memoryUsage":{"rss":65585152,"heapTotal":56143872,"heapUsed":29915824,"external":20393991,"arrayBuffers":18815937}},"os":{"loadavg":[0,0,0],"uptime":533452},"trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":880,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":725,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\sport-tournament-backend\\index.js","function":null,"line":17,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: 2021-06-22T03:57:45.151Z Escuchando en el puerto 3000
+info: 2021-06-22T03:57:46.015Z El usuario administrador por defecto ya esta creado
+info: 2021-06-22T03:57:46.018Z Usuario administrador por defecto creado con exito
+info: 2021-06-22T03:58:06.326Z Escuchando en el puerto 3000
+>>>>>>> 2b0158aef215505ed96ec7ce71e653d2aff6994a
+info: 2021-06-23T06:13:01.871Z Escuchando en el puerto 3000
+info: 2021-06-23T06:13:46.054Z ::1 - POST /user/login HTTP/1.1 400 146 - 32.803 ms
+info: 2021-06-23T06:14:13.692Z ::1 - POST /user/login HTTP/1.1 400 146 - 6.820 ms
+info: 2021-06-23T06:14:28.412Z ::1 - POST /user/login HTTP/1.1 400 146 - 3.316 ms
+info: 2021-06-23T06:14:55.069Z ::1 - POST /user/login HTTP/1.1 400 146 - 3.477 ms
+info: 2021-06-23T06:15:32.242Z Escuchando en el puerto 3000
+info: 2021-06-23T06:15:36.320Z ::1 - POST /user/login HTTP/1.1 400 146 - 24.198 ms
+info: 2021-06-23T06:16:27.579Z ::1 - POST /user/login HTTP/1.1 400 146 - 35.320 ms
+info: 2021-06-23T06:20:08.265Z ::1 - POST /user/login HTTP/1.1 400 146 - 19.145 ms
+info: 2021-06-23T06:20:13.405Z ::1 - POST /user/login HTTP/1.1 400 146 - 3.637 ms
+info: 2021-06-23T06:20:26.717Z ::1 - POST /user/login HTTP/1.1 400 146 - 146.495 ms
+info: 2021-06-23T06:31:41.061Z ::1 - POST /user/login HTTP/1.1 400 146 - 69621.530 ms
+info: 2021-06-23T06:31:42.104Z ::1 - POST /user/login HTTP/1.1 400 146 - 395.228 ms
+info: 2021-06-23T06:31:42.172Z ::1 - POST /user/login HTTP/1.1 400 146 - 55.504 ms
+info: 2021-06-23T06:31:48.515Z ::1 - POST /user/login HTTP/1.1 400 146 - 111.455 ms
+info: 2021-06-23T06:38:30.017Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-23T06:38:30.197Z ::1 - POST /user/login HTTP/1.1 200 404 - 5996.919 ms
+info: 2021-06-23T06:38:55.178Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 324.660 ms
+info: 2021-06-23T06:39:31.314Z ::1 - POST /user/create HTTP/1.1 400 321 - 961.390 ms
+info: 2021-06-23T06:39:57.187Z ::1 - POST /user/create HTTP/1.1 201 265 - 2815.721 ms
+info: 2021-06-23T06:40:07.035Z ::1 - GET /user/getUsers HTTP/1.1 200 2062 - 136.546 ms
+info: 2021-06-23T06:40:21.553Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 926.397 ms
+info: 2021-06-23T06:40:45.497Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 1.061 ms
+info: 2021-06-23T06:43:03.963Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 22.514 ms
+info: 2021-06-23T06:43:29.750Z ::1 - PUT /user/updateUser/60d1607987193f2620b48703 HTTP/1.1 401 - - 0.653 ms
+info: 2021-06-23T06:45:53.010Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 43.732 ms
+info: 2021-06-23T06:57:29.599Z ::1 - PUT /user/updateUser/60d1607987193f2620b48703 HTTP/1.1 401 - - 0.661 ms
+info: 2021-06-23T06:57:35.629Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 2734.509 ms
+info: 2021-06-23T06:57:54.351Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 820.589 ms
+info: 2021-06-23T06:59:30.817Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 101.088 ms
+info: 2021-06-23T07:00:14.283Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 112.589 ms
+info: 2021-06-23T07:00:22.620Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 91.793 ms
+info: 2021-06-23T07:02:09.430Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 49.863 ms
+info: 2021-06-23T07:02:14.495Z ::1 - PUT /user/updateUser/60d162db87193f2620b4870b HTTP/1.1 401 - - 61.763 ms
+info: 2021-06-23T07:03:44.699Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 69.204 ms
+info: 2021-06-23T07:04:45.176Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 75.416 ms
+info: 2021-06-23T07:04:51.053Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 401 - - 0.624 ms
+info: 2021-06-23T07:05:14.133Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 25.771 ms
+info: 2021-06-23T07:05:26.956Z ::1 - PUT /user/updateUser/60d1607987193f2620b48703 HTTP/1.1 401 - - 0.780 ms
+info: 2021-06-23T07:06:27.280Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 71.340 ms
+info: 2021-06-23T07:06:35.308Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-23T07:06:36.877Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 400 215 - 4289.055 ms
+info: 2021-06-23T07:06:51.447Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-23T07:06:51.480Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 400 215 - 45.300 ms
+info: 2021-06-23T07:07:00.528Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-23T07:07:00.565Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 400 215 - 51.969 ms
+info: 2021-06-23T07:11:25.569Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 4550.173 ms
+info: 2021-06-23T07:11:42.196Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-23T07:11:42.755Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 400 215 - 1082.059 ms
+info: 2021-06-23T07:12:32.356Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 168.464 ms
+info: 2021-06-23T07:12:42.490Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-23T07:12:42.869Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 400 215 - 296.534 ms
+info: 2021-06-23T07:13:13.661Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 53.200 ms
+info: 2021-06-23T07:13:20.516Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-23T07:13:20.597Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 400 215 - 83.620 ms
+info: 2021-06-23T07:13:54.886Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 22.271 ms
+info: 2021-06-23T07:14:11.430Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-23T07:14:13.234Z Usuario con id [60d29dbf0e715721b8a9a5e8] ha sido actualizado con exito
+info: 2021-06-23T07:14:13.241Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 200 269 - 1800.486 ms
+info: 2021-06-23T07:14:23.358Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 65.183 ms
+info: 2021-06-23T07:14:35.460Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-23T07:14:35.759Z Usuario con id [60d29dbf0e715721b8a9a5e8] ha sido actualizado con exito
+info: 2021-06-23T07:14:35.769Z ::1 - PUT /user/updateUser/60d29dbf0e715721b8a9a5e8 HTTP/1.1 200 268 - 405.321 ms
+info: 2021-06-23T07:14:40.796Z ::1 - GET /user/getUsers HTTP/1.1 200 2061 - 58.673 ms

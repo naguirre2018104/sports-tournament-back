@@ -61,7 +61,6 @@ if (config.ambiente === "prod") {
 
 const server = app.listen(config.puerto, () => {
   log.info("Escuchando en el puerto 3000");
-  userController.createUserAdmin();
 });
 
 module.exports = {

@@ -133,20 +133,13 @@ userRouter.put(
   [jwtAuthenticate, validarId, validateUpdate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
-    let idUser = req.user.id;
     let updateUser;
-    let role = req.user.role;
 
     updateUser = await userController.foundOneUser({ id: id });
 
     if (!updateUser) {
       log.info(`El usuario con id [${id}] no existe`);
       throw new UserDoesNotExist();
-    }
-
-    if (id !== idUser) {
-      log.info(`El id [${idUser}] no coincide con el id enviado`);
-      throw new IncorrectCredentials(`Los id no coinciden`);
     }
 
     userController.updateUser(id, req.body).then((user) => {
