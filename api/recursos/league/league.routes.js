@@ -31,7 +31,7 @@ function validarId(req, res, next) {
 }
 
 leagueRouter.get(
-  "/",
+  "/getLeagues",
   jwtAuthenticate,
   procesarErrores((req, res) => {
     return leagueController.foundLeague().then((leagues) => {
@@ -79,7 +79,7 @@ leagueRouter.post(
 );
 
 leagueRouter.put(
-  "/:id",
+  "/updateLeague/:id",
   [jwtAuthenticate, validarId, validateLeague],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
@@ -102,7 +102,7 @@ leagueRouter.put(
 );
 
 leagueRouter.delete(
-  "/:id",
+  "/deleteLeague/:id",
   [jwtAuthenticate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
