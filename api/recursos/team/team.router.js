@@ -128,7 +128,7 @@ teamRouter.delete(
 );
 
 teamRouter.put(
-  "/:id/image",
+  "/updateImage/:id/image",
   [jwtAuthenticate, validateImage],
   procesarErrores(async (req, res) => {
     const id = req.params.id;
