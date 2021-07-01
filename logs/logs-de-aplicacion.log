@@ -22171,3 +22171,789 @@ info: 2021-06-30T01:29:57.350Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 124
 info: 2021-06-30T01:29:57.724Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 35.751 ms
 info: 2021-06-30T01:29:58.421Z Usuario admin suministro un token valido. Autenticacion completada
 info: 2021-06-30T01:29:58.503Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 192.231 ms
+error: 2021-06-30T21:11:17.541Z uncaughtException: connectMultiparty is not defined
+ReferenceError: connectMultiparty is not defined
+    at Object.<anonymous> (C:\Software Deportivo\Backend\api\recursos\team\team.router.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Software Deportivo\Backend\index.js:16:20)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"error":{},"stack":"ReferenceError: connectMultiparty is not defined\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\api\\recursos\\team\\team.router.js:15:16)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\index.js:16:20)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Wed Jun 30 2021 15:11:16 GMT-0600 (hora estándar central)","process":{"pid":6632,"uid":null,"gid":null,"cwd":"C:\\Software Deportivo\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Software Deportivo\\Backend\\index.js"],"memoryUsage":{"rss":69287936,"heapTotal":55394304,"heapUsed":32898432,"external":21087156,"arrayBuffers":19472310}},"os":{"loadavg":[0,0,0],"uptime":89744},"trace":[{"column":16,"file":"C:\\Software Deportivo\\Backend\\api\\recursos\\team\\team.router.js","function":null,"line":15,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":20,"file":"C:\\Software Deportivo\\Backend\\index.js","function":null,"line":16,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: 2021-06-30T21:14:51.385Z uncaughtException: connectMultiparty is not defined
+ReferenceError: connectMultiparty is not defined
+    at Object.<anonymous> (C:\Software Deportivo\Backend\api\recursos\team\team.router.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Software Deportivo\Backend\index.js:16:20)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"error":{},"stack":"ReferenceError: connectMultiparty is not defined\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\api\\recursos\\team\\team.router.js:15:16)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Software Deportivo\\Backend\\index.js:16:20)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Wed Jun 30 2021 15:14:51 GMT-0600 (hora estándar central)","process":{"pid":14136,"uid":null,"gid":null,"cwd":"C:\\Software Deportivo\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Software Deportivo\\Backend\\index.js"],"memoryUsage":{"rss":69636096,"heapTotal":55656448,"heapUsed":33045424,"external":21087156,"arrayBuffers":19472310}},"os":{"loadavg":[0,0,0],"uptime":89958},"trace":[{"column":16,"file":"C:\\Software Deportivo\\Backend\\api\\recursos\\team\\team.router.js","function":null,"line":15,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":20,"file":"C:\\Software Deportivo\\Backend\\index.js","function":null,"line":16,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: 2021-06-30T21:16:18.869Z Escuchando en el puerto 3000
+info: 2021-06-30T21:27:35.477Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-06-30T21:27:35.535Z ::1 - POST /user/login HTTP/1.1 200 640 - 1787.965 ms
+info: 2021-06-30T21:27:54.639Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-30T21:27:54.649Z ::1 - POST /user/login HTTP/1.1 200 778 - 172.125 ms
+info: 2021-06-30T21:27:57.904Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:27:57.995Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 161.514 ms
+info: 2021-06-30T21:31:19.929Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:31:20.083Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 400 118 - 223.261 ms
+info: 2021-06-30T21:33:54.920Z Escuchando en el puerto 3000
+info: 2021-06-30T21:34:25.890Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:34:26.130Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 400 262 - 334.483 ms
+info: 2021-06-30T21:46:11.172Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:46:11.513Z El equipo ha sido creado
+info: 2021-06-30T21:46:12.320Z Se añadio un equipo a la liga
+info: 2021-06-30T21:46:12.415Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 112 - 1593.524 ms
+info: 2021-06-30T21:46:12.616Z ::1 - PUT /team/uploadImage/60dce623614fab30e8219d22/image HTTP/1.1 404 186 - 8.545 ms
+info: 2021-06-30T21:47:40.515Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T21:47:40.618Z Ya existe un equipo con el nombre [equipo de prueba]
+info: 2021-06-30T21:47:40.635Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 245.067 ms
+info: 2021-06-30T21:47:47.924Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:47:47.958Z El equipo ha sido creado
+info: 2021-06-30T21:47:47.974Z Se añadio un equipo a la liga
+info: 2021-06-30T21:47:47.983Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 114 - 167.879 ms
+info: 2021-06-30T21:47:48.138Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:49:16.468Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T21:49:16.478Z Ya existe un equipo con el nombre [equipo de prueba 2]
+info: 2021-06-30T21:49:16.483Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 28.626 ms
+info: 2021-06-30T21:49:21.632Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:49:21.694Z El equipo ha sido creado
+info: 2021-06-30T21:49:21.730Z Se añadio un equipo a la liga
+info: 2021-06-30T21:49:21.736Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 114 - 145.035 ms
+info: 2021-06-30T21:49:21.927Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:50:26.010Z ::1 - PUT /team/uploadImage/60dce6e1614fab30e8219d36 HTTP/1.1 - - - - ms
+info: 2021-06-30T21:50:26.014Z ::1 - PUT /team/uploadImage/60dce683614fab30e8219d2b HTTP/1.1 - - - - ms
+info: 2021-06-30T21:50:59.374Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:50:59.447Z El equipo ha sido creado
+info: 2021-06-30T21:50:59.471Z Se añadio un equipo a la liga
+info: 2021-06-30T21:50:59.473Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 113 - 241.194 ms
+info: 2021-06-30T21:50:59.759Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T21:53:36.512Z Escuchando en el puerto 3000
+info: 2021-06-30T22:02:11.359Z Escuchando en el puerto 3000
+info: 2021-06-30T22:03:11.760Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:03:11.869Z El equipo ha sido creado
+info: 2021-06-30T22:03:11.972Z Se añadio un equipo a la liga
+info: 2021-06-30T22:03:11.993Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 618.371 ms
+info: 2021-06-30T22:03:12.155Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:06:47.268Z ::1 - PUT /team/uploadImage/60dcea1f6c5b9c2e58b0a481 HTTP/1.1 - - - - ms
+info: 2021-06-30T22:07:21.821Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:07:21.841Z El equipo ha sido creado
+info: 2021-06-30T22:07:21.854Z Se añadio un equipo a la liga
+info: 2021-06-30T22:07:21.856Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 49.251 ms
+info: 2021-06-30T22:07:23.011Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:07:23.132Z ::1 - PUT /team/uploadImage/60dceb196c5b9c2e58b0a489 HTTP/1.1 400 262 - 135.138 ms
+info: 2021-06-30T22:08:57.903Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:08:58.039Z El equipo ha sido creado
+info: 2021-06-30T22:08:58.071Z Se añadio un equipo a la liga
+info: 2021-06-30T22:08:58.078Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 185.115 ms
+info: 2021-06-30T22:08:58.209Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:08:58.225Z ::1 - PUT /team/uploadImage/60dceb796c5b9c2e58b0a491 HTTP/1.1 400 262 - 109.959 ms
+info: 2021-06-30T22:12:00.535Z Escuchando en el puerto 3000
+info: 2021-06-30T22:12:17.558Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:12:17.731Z El equipo ha sido creado
+info: 2021-06-30T22:12:17.887Z Se añadio un equipo a la liga
+info: 2021-06-30T22:12:17.897Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 583.436 ms
+info: 2021-06-30T22:12:18.082Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:12:18.274Z ::1 - PUT /team/uploadImage/60dcec41a53c112c2c3684e9 HTTP/1.1 400 262 - 200.136 ms
+info: 2021-06-30T22:14:17.765Z Escuchando en el puerto 3000
+info: 2021-06-30T22:15:05.539Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:15:05.648Z El equipo ha sido creado
+info: 2021-06-30T22:15:05.692Z Se añadio un equipo a la liga
+info: 2021-06-30T22:15:05.703Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 380.245 ms
+info: 2021-06-30T22:15:06.100Z ::1 - PUT /team/uploadImage/60dcece9ebe334333439bc33 HTTP/1.1 400 262 - 301.341 ms
+info: 2021-06-30T22:18:58.435Z Escuchando en el puerto 3000
+info: 2021-06-30T22:25:33.999Z Escuchando en el puerto 3000
+info: 2021-06-30T22:27:07.673Z Escuchando en el puerto 3000
+info: 2021-06-30T22:27:50.188Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T22:27:50.219Z Ya existe un equipo con el nombre [equipo c]
+info: 2021-06-30T22:27:50.283Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 195.105 ms
+info: 2021-06-30T22:27:56.595Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:27:56.691Z El equipo ha sido creado
+info: 2021-06-30T22:27:56.721Z Se añadio un equipo a la liga
+info: 2021-06-30T22:27:56.725Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 168.002 ms
+info: 2021-06-30T22:27:56.852Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:27:57.245Z ::1 - PUT /team/uploadImage/60dcefecfd3797095447ffd7 HTTP/1.1 400 270 - 406.587 ms
+info: 2021-06-30T22:28:43.334Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:28:43.369Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 400 270 - 41.218 ms
+info: 2021-06-30T22:30:28.555Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:30:58.124Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 - - - - ms
+info: 2021-06-30T22:31:01.892Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:31:13.580Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 - - - - ms
+info: 2021-06-30T22:31:42.642Z Escuchando en el puerto 3000
+info: 2021-06-30T22:31:54.310Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:32:39.621Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 - - - - ms
+info: 2021-06-30T22:34:02.459Z ::1 - GET /user/getUsers HTTP/1.1 200 3390 - 60.248 ms
+info: 2021-06-30T22:34:09.150Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:34:09.505Z ::1 - GET /league/getLeagues HTTP/1.1 200 649 - 376.382 ms
+info: 2021-06-30T22:38:34.595Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:38:43.549Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 - - - - ms
+info: 2021-06-30T22:38:54.956Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:39:16.120Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 - - - - ms
+info: 2021-06-30T22:55:36.083Z ::1 - PUT /team/updateImage/60d94be723ba3b02c414f3eb/image HTTP/1.1 401 - - 133.777 ms
+info: 2021-06-30T22:55:55.055Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 401 - - 15.797 ms
+info: 2021-06-30T22:55:58.644Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 401 - - 1.360 ms
+info: 2021-06-30T22:58:23.686Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-30T22:58:23.749Z ::1 - POST /user/login HTTP/1.1 200 1048 - 425.455 ms
+info: 2021-06-30T22:58:39.521Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T22:58:49.671Z ::1 - PUT /team/uploadImage/60d94be723ba3b02c414f3eb HTTP/1.1 - - - - ms
+info: 2021-06-30T23:06:23.370Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:27:26.917Z Escuchando en el puerto 3000
+info: 2021-06-30T23:35:33.340Z Usuario [admin] completo la autenticacion con exito
+info: 2021-06-30T23:35:33.400Z ::1 - POST /user/login HTTP/1.1 200 1048 - 530.640 ms
+info: 2021-06-30T23:35:38.950Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:35:39.107Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 449.443 ms
+info: 2021-06-30T23:36:03.278Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T23:36:03.325Z Ya existe un equipo con el nombre [equipo a]
+info: 2021-06-30T23:36:03.349Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 108.857 ms
+info: 2021-06-30T23:36:12.760Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:36:12.825Z El equipo ha sido creado
+info: 2021-06-30T23:36:12.923Z Se añadio un equipo a la liga
+info: 2021-06-30T23:36:12.931Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 99 - 181.186 ms
+info: 2021-06-30T23:36:13.193Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:36:13.428Z ::1 - PUT /team/uploadImage/60dcffec33301e17a4f51809 HTTP/1.1 500 746 - 204.326 ms
+info: 2021-06-30T23:37:22.204Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T23:37:22.231Z Ya existe un equipo con el nombre [equipo final]
+info: 2021-06-30T23:37:22.277Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 80.380 ms
+info: 2021-06-30T23:37:26.052Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:37:26.173Z El equipo ha sido creado
+info: 2021-06-30T23:37:26.197Z Se añadio un equipo a la liga
+info: 2021-06-30T23:37:26.201Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 101 - 188.259 ms
+info: 2021-06-30T23:37:26.281Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:37:26.336Z ::1 - PUT /team/uploadImage/60dd003633301e17a4f51814 HTTP/1.1 500 746 - 40.552 ms
+info: 2021-06-30T23:41:28.612Z Escuchando en el puerto 3000
+info: 2021-06-30T23:43:15.956Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:43:16.056Z El equipo ha sido creado
+info: 2021-06-30T23:43:16.203Z Se añadio un equipo a la liga
+info: 2021-06-30T23:43:16.209Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 110 - 70567.301 ms
+info: 2021-06-30T23:43:16.534Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:43:16.656Z ::1 - PUT /team/uploadImage/60dd0193c13e7b244496c233 HTTP/1.1 500 746 - 137.126 ms
+info: 2021-06-30T23:45:39.906Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:45:39.958Z El equipo ha sido creado
+info: 2021-06-30T23:45:40.140Z Se añadio un equipo a la liga
+info: 2021-06-30T23:45:40.144Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 178.065 ms
+info: 2021-06-30T23:45:40.184Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:45:40.355Z ::1 - PUT /team/uploadImage/60dd0223c13e7b244496c23b HTTP/1.1 500 746 - 40.673 ms
+info: 2021-06-30T23:47:12.254Z Escuchando en el puerto 3000
+info: 2021-06-30T23:47:15.872Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:47:15.924Z El equipo ha sido creado
+info: 2021-06-30T23:47:16.053Z Se añadio un equipo a la liga
+info: 2021-06-30T23:47:16.061Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 301.263 ms
+info: 2021-06-30T23:47:16.124Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:47:16.215Z ::1 - PUT /team/uploadImage/60dd0283b057831674e78fe7 HTTP/1.1 500 746 - 54.989 ms
+info: 2021-06-30T23:48:10.591Z Escuchando en el puerto 3000
+info: 2021-06-30T23:48:16.868Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T23:48:16.887Z Ya existe un equipo con el nombre [equipo a]
+info: 2021-06-30T23:48:16.902Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 140.830 ms
+info: 2021-06-30T23:48:31.383Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:48:31.494Z El equipo ha sido creado
+info: 2021-06-30T23:48:31.522Z Se añadio un equipo a la liga
+info: 2021-06-30T23:48:31.533Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 189.358 ms
+info: 2021-06-30T23:48:31.581Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:48:31.660Z ::1 - PUT /team/uploadImage/60dd02cf563dea26d40b08d9 HTTP/1.1 500 746 - 54.074 ms
+info: 2021-06-30T23:49:56.161Z Escuchando en el puerto 3000
+info: 2021-06-30T23:50:16.776Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:50:16.828Z El equipo ha sido creado
+info: 2021-06-30T23:50:16.862Z Se añadio un equipo a la liga
+info: 2021-06-30T23:50:16.878Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 184.783 ms
+info: 2021-06-30T23:50:16.983Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:50:17.144Z ::1 - PUT /team/uploadImage/60dd0338fb7e1f1938ef1c74 HTTP/1.1 500 783 - 183.646 ms
+info: 2021-06-30T23:54:42.476Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:54:42.495Z El equipo ha sido creado
+info: 2021-06-30T23:54:42.509Z Se añadio un equipo a la liga
+info: 2021-06-30T23:54:42.512Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 88.234 ms
+info: 2021-06-30T23:54:42.604Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:54:42.666Z ::1 - PUT /team/uploadImage/60dd0442fb7e1f1938ef1c7c HTTP/1.1 500 746 - 47.488 ms
+info: 2021-06-30T23:56:29.167Z Escuchando en el puerto 3000
+info: 2021-06-30T23:56:38.557Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T23:56:38.578Z Ya existe un equipo con el nombre [equipo b]
+info: 2021-06-30T23:56:38.611Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 127.240 ms
+info: 2021-06-30T23:56:42.370Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:56:42.431Z El equipo ha sido creado
+info: 2021-06-30T23:56:42.543Z Se añadio un equipo a la liga
+info: 2021-06-30T23:56:42.550Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 194.766 ms
+info: 2021-06-30T23:56:42.633Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:56:42.756Z ::1 - PUT /team/uploadImage/60dd04ba0deab126e41d0af6 HTTP/1.1 500 746 - 140.150 ms
+info: 2021-06-30T23:57:22.010Z Escuchando en el puerto 3000
+info: 2021-06-30T23:57:52.481Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T23:57:52.502Z Ya existe un equipo con el nombre [equipo c]
+info: 2021-06-30T23:57:52.517Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 130.074 ms
+info: 2021-06-30T23:57:56.483Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:57:56.581Z El equipo ha sido creado
+info: 2021-06-30T23:57:56.680Z Se añadio un equipo a la liga
+info: 2021-06-30T23:57:56.688Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 238.569 ms
+info: 2021-06-30T23:57:56.725Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:57:56.838Z ::1 - PUT /team/uploadImage/60dd050484327c35e89ec580 HTTP/1.1 500 746 - 67.994 ms
+info: 2021-06-30T23:58:49.122Z Escuchando en el puerto 3000
+info: 2021-06-30T23:59:00.261Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-06-30T23:59:00.279Z Ya existe un equipo con el nombre [equipo d]
+info: 2021-06-30T23:59:00.302Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 185.305 ms
+info: 2021-06-30T23:59:13.649Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:59:13.709Z El equipo ha sido creado
+info: 2021-06-30T23:59:13.746Z Se añadio un equipo a la liga
+info: 2021-06-30T23:59:13.749Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 120.514 ms
+info: 2021-06-30T23:59:14.454Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-06-30T23:59:14.525Z ::1 - PUT /team/uploadImage/60dd0551697ca61ed01e308e HTTP/1.1 500 746 - 73.805 ms
+info: 2021-07-01T00:00:14.248Z Escuchando en el puerto 3000
+info: 2021-07-01T00:00:19.223Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-07-01T00:00:19.246Z Ya existe un equipo con el nombre [equipo a]
+info: 2021-07-01T00:00:19.270Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 145.996 ms
+info: 2021-07-01T00:00:22.741Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:00:22.793Z El equipo ha sido creado
+info: 2021-07-01T00:00:22.849Z Se añadio un equipo a la liga
+info: 2021-07-01T00:00:22.853Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 128.668 ms
+info: 2021-07-01T00:00:23.150Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:00:23.220Z ::1 - PUT /team/uploadImage/60dd0596ba3526368c024152 HTTP/1.1 500 746 - 69.541 ms
+info: 2021-07-01T00:01:30.412Z Escuchando en el puerto 3000
+info: 2021-07-01T00:02:10.304Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:02:10.380Z El equipo ha sido creado
+info: 2021-07-01T00:02:10.420Z Se añadio un equipo a la liga
+info: 2021-07-01T00:02:10.459Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 271.108 ms
+info: 2021-07-01T00:02:10.524Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:02:10.588Z ::1 - PUT /team/uploadImage/60dd060202dfcd3620439b25 HTTP/1.1 500 746 - 72.836 ms
+info: 2021-07-01T00:03:21.911Z Escuchando en el puerto 3000
+info: 2021-07-01T00:03:37.914Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-07-01T00:03:37.932Z Ya existe un equipo con el nombre [equipo a]
+info: 2021-07-01T00:03:37.947Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 313 - 197.914 ms
+info: 2021-07-01T00:03:42.261Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:03:42.374Z El equipo ha sido creado
+info: 2021-07-01T00:03:42.461Z Se añadio un equipo a la liga
+info: 2021-07-01T00:03:42.466Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 191.722 ms
+info: 2021-07-01T00:03:42.534Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:03:42.628Z ::1 - PUT /team/uploadImage/60dd065e68f2d022282c3964 HTTP/1.1 500 746 - 107.547 ms
+info: 2021-07-01T00:04:47.788Z Escuchando en el puerto 3000
+info: 2021-07-01T00:04:54.421Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:04:54.512Z El equipo ha sido creado
+info: 2021-07-01T00:04:54.600Z Se añadio un equipo a la liga
+info: 2021-07-01T00:04:54.607Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 357.597 ms
+info: 2021-07-01T00:04:54.703Z Usuario admin suministro un token valido. Autenticacion completada
+error: 2021-07-01T00:04:55.745Z uncaughtException: userUpdated is not defined
+ReferenceError: userUpdated is not defined
+    at C:\Software Deportivo\Backend\api\recursos\team\team.controller.js:81:43
+    at C:\Software Deportivo\Backend\node_modules\mongoose\lib\model.js:4870:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) {"error":{},"stack":"ReferenceError: userUpdated is not defined\n    at C:\\Software Deportivo\\Backend\\api\\recursos\\team\\team.controller.js:81:43\n    at C:\\Software Deportivo\\Backend\\node_modules\\mongoose\\lib\\model.js:4870:18\n    at processTicksAndRejections (internal/process/task_queues.js:77:11)","exception":true,"date":"Wed Jun 30 2021 18:04:54 GMT-0600 (hora estándar central)","process":{"pid":4112,"uid":null,"gid":null,"cwd":"C:\\Software Deportivo\\Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.17.1","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Software Deportivo\\Backend\\index.js"],"memoryUsage":{"rss":73654272,"heapTotal":56819712,"heapUsed":27273440,"external":20029601,"arrayBuffers":18395472}},"os":{"loadavg":[0,0,0],"uptime":100162},"trace":[{"column":43,"file":"C:\\Software Deportivo\\Backend\\api\\recursos\\team\\team.controller.js","function":null,"line":81,"method":null,"native":false},{"column":18,"file":"C:\\Software Deportivo\\Backend\\node_modules\\mongoose\\lib\\model.js","function":null,"line":4870,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: 2021-07-01T00:05:40.270Z Escuchando en el puerto 3000
+info: 2021-07-01T00:05:49.218Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:05:49.277Z El equipo ha sido creado
+info: 2021-07-01T00:05:49.316Z Se añadio un equipo a la liga
+info: 2021-07-01T00:05:49.347Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 292.528 ms
+info: 2021-07-01T00:05:49.434Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:05:49.606Z ::1 - PUT /team/uploadImage/60dd06dd5988fb33f87a32c6 HTTP/1.1 200 149 - 114.522 ms
+info: 2021-07-01T00:09:03.175Z Escuchando en el puerto 3000
+info: 2021-07-01T00:11:21.754Z Escuchando en el puerto 3000
+info: 2021-07-01T00:11:41.636Z Escuchando en el puerto 3000
+info: 2021-07-01T00:15:59.827Z ::1 - GET /user/getUsers HTTP/1.1 200 2851 - 142.547 ms
+info: 2021-07-01T00:16:00.837Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T00:16:00.875Z ::1 - GET /league/getLeagues HTTP/1.1 200 370 - 115.817 ms
+info: 2021-07-01T00:21:13.602Z Escuchando en el puerto 3000
+info: 2021-07-01T01:04:01.673Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:04:01.794Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 1066.505 ms
+info: 2021-07-01T01:04:28.637Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:04:28.855Z El equipo ha sido creado
+info: 2021-07-01T01:04:29.012Z Se añadio un equipo a la liga
+info: 2021-07-01T01:04:29.015Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 460.661 ms
+info: 2021-07-01T01:04:29.253Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:04:29.394Z ::1 - PUT /team/uploadTeamImage/60dd149cdca64633141ab1de HTTP/1.1 200 149 - 147.776 ms
+info: 2021-07-01T01:04:34.384Z ::1 - GET /user/getUsers HTTP/1.1 200 2877 - 45.415 ms
+info: 2021-07-01T01:04:35.459Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:04:35.492Z ::1 - GET /league/getLeagues HTTP/1.1 200 467 - 50.791 ms
+info: 2021-07-01T01:17:22.349Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:17:22.639Z El equipo ha sido creado
+info: 2021-07-01T01:17:22.700Z Se añadio un equipo a la liga
+info: 2021-07-01T01:17:22.705Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 920.260 ms
+info: 2021-07-01T01:17:23.260Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:17:23.635Z ::1 - PUT /team/uploadTeamImage/60dd17a2dca64633141ab1ed HTTP/1.1 200 149 - 377.369 ms
+info: 2021-07-01T01:17:23.789Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:17:23.854Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 117.465 ms
+info: 2021-07-01T01:17:30.594Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:17:30.726Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 147.864 ms
+info: 2021-07-01T01:19:26.388Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:19:26.600Z El equipo ha sido creado
+info: 2021-07-01T01:19:26.674Z Se añadio un equipo a la liga
+info: 2021-07-01T01:19:26.678Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 355.442 ms
+info: 2021-07-01T01:19:26.851Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:19:26.915Z ::1 - PUT /team/uploadTeamImage/60dd181edca64633141ab1fe HTTP/1.1 200 149 - 58.504 ms
+info: 2021-07-01T01:19:27.166Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:19:27.256Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 437 - 103.364 ms
+info: 2021-07-01T01:24:22.578Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:24:22.782Z El equipo ha sido creado
+info: 2021-07-01T01:24:22.835Z Se añadio un equipo a la liga
+info: 2021-07-01T01:24:22.865Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 105 - 258.234 ms
+info: 2021-07-01T01:24:22.972Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:24:23.144Z ::1 - PUT /team/uploadTeamImage/60dd1946dca64633141ab20b HTTP/1.1 200 152 - 182.425 ms
+info: 2021-07-01T01:24:23.296Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:24:23.333Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 537 - 103.244 ms
+info: 2021-07-01T01:25:27.768Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:25:27.843Z ::1 - GET /league/getLeagues HTTP/1.1 200 763 - 46.435 ms
+info: 2021-07-01T01:25:33.410Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:25:33.571Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 123.164 ms
+info: 2021-07-01T01:25:44.432Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:25:44.468Z El equipo ha sido creado
+info: 2021-07-01T01:25:44.478Z Se añadio un equipo a la liga
+info: 2021-07-01T01:25:44.481Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 160.418 ms
+info: 2021-07-01T01:25:44.540Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:25:44.738Z ::1 - PUT /team/uploadTeamImage/60dd1998dca64633141ab220 HTTP/1.1 500 783 - 215.091 ms
+info: 2021-07-01T01:26:02.892Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-07-01T01:26:02.995Z Ya existe un equipo con el nombre [equipo 4]
+info: 2021-07-01T01:26:03.026Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 409 349 - 183.041 ms
+info: 2021-07-01T01:26:08.080Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:26:08.144Z ::1 - GET /league/getLeagues HTTP/1.1 200 833 - 80.743 ms
+info: 2021-07-01T01:31:23.659Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:31:23.721Z El equipo ha sido creado
+info: 2021-07-01T01:31:23.729Z Se añadio un equipo a la liga
+info: 2021-07-01T01:31:23.733Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 92.564 ms
+info: 2021-07-01T01:31:23.920Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:31:24.063Z ::1 - PUT /team/uploadTeamImage/60dd1aebdca64633141ab22f HTTP/1.1 200 149 - 216.157 ms
+info: 2021-07-01T01:31:24.173Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:31:24.196Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 705 - 31.588 ms
+info: 2021-07-01T01:31:52.079Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:31:52.120Z ::1 - GET /league/getLeagues HTTP/1.1 200 931 - 57.032 ms
+info: 2021-07-01T01:32:25.000Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:32:25.063Z El equipo ha sido creado
+info: 2021-07-01T01:32:25.079Z Se añadio un equipo a la liga
+info: 2021-07-01T01:32:25.137Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 86.142 ms
+info: 2021-07-01T01:32:25.239Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:32:25.288Z ::1 - PUT /team/uploadTeamImage/60dd1b29dca64633141ab240 HTTP/1.1 200 149 - 36.021 ms
+info: 2021-07-01T01:32:25.366Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:32:25.611Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 803 - 147.724 ms
+info: 2021-07-01T01:32:48.932Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:32:48.974Z ::1 - GET /league/getLeagues HTTP/1.1 200 1029 - 119.881 ms
+info: 2021-07-01T01:32:58.785Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:32:58.859Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 112.407 ms
+info: 2021-07-01T01:33:17.524Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:17.546Z El equipo ha sido creado
+info: 2021-07-01T01:33:17.563Z Se añadio un equipo a la liga
+info: 2021-07-01T01:33:17.575Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 68.807 ms
+info: 2021-07-01T01:33:17.777Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:17.843Z ::1 - PUT /team/uploadTeamImage/60dd1b5ddca64633141ab255 HTTP/1.1 200 149 - 169.634 ms
+info: 2021-07-01T01:33:17.972Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:17.995Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 901 - 32.822 ms
+info: 2021-07-01T01:33:24.069Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:24.103Z El equipo ha sido creado
+info: 2021-07-01T01:33:24.125Z Se añadio un equipo a la liga
+info: 2021-07-01T01:33:24.138Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 84.738 ms
+info: 2021-07-01T01:33:24.178Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:24.202Z ::1 - PUT /team/uploadTeamImage/60dd1b64dca64633141ab262 HTTP/1.1 200 149 - 33.274 ms
+info: 2021-07-01T01:33:24.370Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:24.437Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 999 - 71.578 ms
+info: 2021-07-01T01:33:32.331Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:32.363Z El equipo ha sido creado
+info: 2021-07-01T01:33:32.376Z Se añadio un equipo a la liga
+info: 2021-07-01T01:33:32.378Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 104.294 ms
+info: 2021-07-01T01:33:32.444Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:32.542Z ::1 - PUT /team/uploadTeamImage/60dd1b6cdca64633141ab26f HTTP/1.1 200 149 - 99.033 ms
+info: 2021-07-01T01:33:32.659Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:33:32.944Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 1097 - 296.750 ms
+info: 2021-07-01T01:39:11.871Z ::1 - GET /team/getTeamImage/ HTTP/1.1 404 157 - 1068.196 ms
+info: 2021-07-01T01:39:12.396Z ::1 - GET /team/getTeamImage/13CMHLNYABAWZeMT9ukrGTxy.png HTTP/1.1 200 6020 - 1514.878 ms
+info: 2021-07-01T01:39:12.404Z ::1 - GET /team/getTeamImage/XdvRocZgmg33odEg1LSkMLfi.png HTTP/1.1 200 2540 - 1980.323 ms
+info: 2021-07-01T01:39:12.476Z ::1 - GET /team/getTeamImage/O_HrJcOJ_m3msgTQN_e7vIfY.png HTTP/1.1 200 39781 - 1626.203 ms
+info: 2021-07-01T01:39:12.506Z ::1 - GET /team/getTeamImage/7PuS20-b0MDogp1KRW_aicne.png HTTP/1.1 200 49769 - 1692.414 ms
+info: 2021-07-01T01:39:12.549Z ::1 - GET /team/getTeamImage/Va0viU9QBrVZdVMtofw_6aFx.jpeg HTTP/1.1 200 77681 - 1627.176 ms
+info: 2021-07-01T01:39:12.786Z ::1 - GET /team/getTeamImage/cKJ30E7VgUn11cytGh0DzM2l.png HTTP/1.1 200 29643 - 401.018 ms
+info: 2021-07-01T01:39:12.791Z ::1 - GET /team/getTeamImage/wi_CDkz3U0j3E8By_v7-lxGV.png HTTP/1.1 200 9287 - 274.610 ms
+info: 2021-07-01T01:39:12.852Z ::1 - GET /team/getTeamImage/OrEN-QSCysW8e87POTKqA9MP.png HTTP/1.1 200 9287 - 225.451 ms
+info: 2021-07-01T01:39:12.871Z ::1 - GET /team/getTeamImage/oAJ0VusohCRybmofBlper7tD.png HTTP/1.1 200 9287 - 40.383 ms
+info: 2021-07-01T01:39:15.113Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:39:15.130Z ::1 - GET /league/getLeagues HTTP/1.1 200 370 - 126.421 ms
+info: 2021-07-01T01:39:37.928Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:39:38.109Z El equipo ha sido creado
+info: 2021-07-01T01:39:38.155Z Se añadio un equipo a la liga
+info: 2021-07-01T01:39:38.158Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 282.224 ms
+info: 2021-07-01T01:39:38.532Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:39:38.596Z ::1 - PUT /team/uploadTeamImage/60dd1cd9dca64633141ab27f HTTP/1.1 200 149 - 156.280 ms
+info: 2021-07-01T01:39:39.078Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:39:39.180Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 241 - 231.662 ms
+info: 2021-07-01T01:39:45.384Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:39:45.431Z ::1 - GET /league/getLeagues HTTP/1.1 200 467 - 125.349 ms
+info: 2021-07-01T01:39:46.638Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 200 2540 - 5.439 ms
+info: 2021-07-01T01:40:30.621Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:40:30.682Z El equipo ha sido creado
+info: 2021-07-01T01:40:30.763Z Se añadio un equipo a la liga
+info: 2021-07-01T01:40:30.766Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 104 - 116.027 ms
+info: 2021-07-01T01:40:31.020Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:40:31.505Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 653.920 ms
+info: 2021-07-01T01:40:31.680Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T01:40:31.736Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 34.526 ms
+info: 2021-07-01T01:40:32.162Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 200 3578652 - 14.212 ms
+info: 2021-07-01T01:42:03.495Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 71.113 ms
+info: 2021-07-01T01:42:03.619Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 10.126 ms
+info: 2021-07-01T04:40:14.076Z Escuchando en el puerto 3000
+info: 2021-07-01T04:43:26.658Z Escuchando en el puerto 3000
+info: 2021-07-01T04:50:33.853Z Usuario [admin] completo la autenticacion con exito
+info: 2021-07-01T04:50:33.913Z ::1 - POST /user/login HTTP/1.1 200 562 - 558.504 ms
+info: 2021-07-01T04:50:37.629Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T04:50:37.773Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 264.084 ms
+info: 2021-07-01T04:50:39.434Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 19.427 ms
+info: 2021-07-01T04:50:39.466Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 9.472 ms
+info: 2021-07-01T04:52:33.969Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 3.659 ms
+info: 2021-07-01T04:52:34.054Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 8.302 ms
+info: 2021-07-01T04:54:09.172Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 490.020 ms
+info: 2021-07-01T04:54:09.295Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 566.007 ms
+info: 2021-07-01T04:55:06.041Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 3.549 ms
+info: 2021-07-01T04:55:06.086Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 4.940 ms
+info: 2021-07-01T04:57:15.709Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 13.876 ms
+info: 2021-07-01T04:57:15.738Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 160.573 ms
+info: 2021-07-01T05:09:14.738Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 165.340 ms
+info: 2021-07-01T05:09:14.889Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 385.685 ms
+info: 2021-07-01T05:10:08.157Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 9.920 ms
+info: 2021-07-01T05:10:08.219Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 7.962 ms
+info: 2021-07-01T05:10:26.650Z ::1 - PUT /team/create/undefined HTTP/1.1 404 160 - 221.427 ms
+info: 2021-07-01T05:11:11.657Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 7.650 ms
+info: 2021-07-01T05:11:11.665Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 36.666 ms
+info: 2021-07-01T05:11:24.155Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:11:24.171Z ::1 - PUT /team/updateTeam/undefined HTTP/1.1 400 67 - 3994.916 ms
+info: 2021-07-01T05:12:22.482Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 5.295 ms
+info: 2021-07-01T05:12:22.731Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 4.935 ms
+info: 2021-07-01T05:12:28.681Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:12:28.709Z ::1 - PUT /team/updateTeam/undefined HTTP/1.1 400 67 - 125.502 ms
+info: 2021-07-01T05:12:57.190Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 4.465 ms
+info: 2021-07-01T05:12:57.372Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 36.691 ms
+info: 2021-07-01T05:13:02.612Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:13:02.777Z ::1 - PUT /team/updateTeam/undefined HTTP/1.1 400 67 - 130.391 ms
+info: 2021-07-01T05:14:03.503Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 4.537 ms
+info: 2021-07-01T05:14:03.515Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 162.556 ms
+info: 2021-07-01T05:14:20.110Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:14:20.122Z ::1 - PUT /team/updateTeam/undefined HTTP/1.1 400 67 - 30.580 ms
+info: 2021-07-01T05:14:59.796Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 5.936 ms
+info: 2021-07-01T05:15:00.102Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 4.001 ms
+info: 2021-07-01T05:15:14.527Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:15:14.531Z ::1 - PUT /team/updateTeam/undefined HTTP/1.1 400 67 - 17.730 ms
+info: 2021-07-01T05:17:29.315Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 3.654 ms
+info: 2021-07-01T05:17:29.334Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 83.923 ms
+info: 2021-07-01T05:17:38.302Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:17:39.986Z ::1 - PUT /team/updateTeam/60dd1cd9dca64633141ab27f HTTP/1.1 400 118 - 1709.942 ms
+info: 2021-07-01T05:18:00.056Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:18:00.295Z ::1 - PUT /team/updateTeam/60dd1cd9dca64633141ab27f HTTP/1.1 400 118 - 57.880 ms
+info: 2021-07-01T05:18:42.123Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 4.952 ms
+info: 2021-07-01T05:18:42.340Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 165.453 ms
+info: 2021-07-01T05:18:49.571Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:18:50.238Z El equipo con id [60dd1cd9dca64633141ab27f] ha sido actualizado
+info: 2021-07-01T05:18:50.241Z ::1 - PUT /team/updateTeam/60dd1cd9dca64633141ab27f HTTP/1.1 200 137 - 719.546 ms
+info: 2021-07-01T05:18:51.193Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:18:51.555Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 345.181 ms
+info: 2021-07-01T05:18:58.518Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:18:58.814Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 124.054 ms
+info: 2021-07-01T05:19:55.896Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:19:55.998Z El equipo con id [60dd1cd9dca64633141ab27f] ha sido actualizado
+info: 2021-07-01T05:19:56.002Z ::1 - PUT /team/updateTeam/60dd1cd9dca64633141ab27f HTTP/1.1 200 137 - 271.895 ms
+info: 2021-07-01T05:19:56.403Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:19:56.484Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 150.939 ms
+info: 2021-07-01T05:20:02.871Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:20:03.116Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 162.134 ms
+info: 2021-07-01T05:21:39.470Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 75.218 ms
+info: 2021-07-01T05:21:39.880Z ::1 - GET /team/getTeamImage/WTlcaiMlqxRmFW_6cyfVLh_A.png HTTP/1.1 304 - - 581.484 ms
+info: 2021-07-01T05:22:12.835Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:22:13.237Z El equipo con id [60dd1cd9dca64633141ab27f] ha sido actualizado
+info: 2021-07-01T05:22:13.460Z ::1 - PUT /team/updateTeam/60dd1cd9dca64633141ab27f HTTP/1.1 200 137 - 167.314 ms
+info: 2021-07-01T05:22:13.598Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:22:14.186Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:22:14.519Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 413.861 ms
+info: 2021-07-01T05:22:14.535Z ::1 - PUT /team/uploadTeamImage/60dd1cd9dca64633141ab27f HTTP/1.1 200 149 - 969.608 ms
+info: 2021-07-01T05:22:21.823Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:22:21.896Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 70.250 ms
+info: 2021-07-01T05:22:23.698Z ::1 - GET /team/getTeamImage/BOq0Urr_Vk0-5IS-JaOw-SpX.png HTTP/1.1 200 39781 - 57.472 ms
+info: 2021-07-01T05:24:30.952Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:24:30.996Z El equipo con id [60dd1cd9dca64633141ab27f] ha sido actualizado
+info: 2021-07-01T05:24:31.002Z ::1 - PUT /team/updateTeam/60dd1cd9dca64633141ab27f HTTP/1.1 200 137 - 104.885 ms
+info: 2021-07-01T05:24:31.140Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:24:31.312Z ::1 - PUT /team/uploadTeamImage/60dd1cd9dca64633141ab27f HTTP/1.1 200 149 - 58.662 ms
+info: 2021-07-01T05:24:31.420Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:24:31.440Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 100.272 ms
+info: 2021-07-01T05:24:32.223Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 200 2540 - 11.077 ms
+info: 2021-07-01T05:24:55.249Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:24:55.391Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 47.851 ms
+info: 2021-07-01T05:25:58.685Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 12.703 ms
+info: 2021-07-01T05:25:58.696Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 28.347 ms
+info: 2021-07-01T05:26:40.942Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 4.237 ms
+info: 2021-07-01T05:26:40.952Z ::1 - GET /team/getTeamImage/yTwwAcr8YgHzkVxZp134FPuv.png HTTP/1.1 304 - - 20.179 ms
+info: 2021-07-01T05:27:08.746Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:27:08.888Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:27:08.896Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 226.202 ms
+info: 2021-07-01T05:27:09.214Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:27:09.344Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:27:09.491Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 234.057 ms
+info: 2021-07-01T05:27:09.520Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 337.558 ms
+info: 2021-07-01T05:27:45.300Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:27:45.369Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 94.818 ms
+info: 2021-07-01T05:27:46.620Z ::1 - GET /team/getTeamImage/twf-zp1FBVI1w6IE4qN0vuUu.jpg HTTP/1.1 200 91444 - 41.990 ms
+info: 2021-07-01T05:28:22.212Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:28:22.300Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:28:22.309Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 68.074 ms
+info: 2021-07-01T05:28:22.403Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:28:22.425Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 45.953 ms
+info: 2021-07-01T05:31:10.733Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:31:10.859Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:31:10.874Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 45.725 ms
+info: 2021-07-01T05:31:11.152Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:31:11.197Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:31:11.219Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 304 - - 32.475 ms
+info: 2021-07-01T05:31:11.848Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 685.136 ms
+info: 2021-07-01T05:32:53.110Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 6.367 ms
+info: 2021-07-01T05:32:53.136Z ::1 - GET /team/getTeamImage/twf-zp1FBVI1w6IE4qN0vuUu.jpg HTTP/1.1 304 - - 18.390 ms
+info: 2021-07-01T05:34:11.238Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 6.600 ms
+info: 2021-07-01T05:34:11.335Z ::1 - GET /team/getTeamImage/twf-zp1FBVI1w6IE4qN0vuUu.jpg HTTP/1.1 304 - - 28.619 ms
+info: 2021-07-01T05:34:17.399Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:34:17.424Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 75.074 ms
+info: 2021-07-01T05:34:19.774Z ::1 - GET /team/getTeamImage/V2NgL34T0xSH0SyBnk8olatB.png HTTP/1.1 200 3578652 - 124.118 ms
+info: 2021-07-01T05:34:36.769Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:34:36.889Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:34:36.901Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 78.032 ms
+info: 2021-07-01T05:34:37.207Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:34:37.444Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:34:37.740Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 435.506 ms
+info: 2021-07-01T05:34:38.029Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 382.056 ms
+info: 2021-07-01T05:34:39.170Z ::1 - GET /team/getTeamImage/cohiPa0FKOrisOhtZJjeKUNo.jpg HTTP/1.1 200 218656 - 5.745 ms
+info: 2021-07-01T05:35:47.849Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:35:47.861Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:35:48.293Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 22.443 ms
+info: 2021-07-01T05:35:48.418Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:35:48.476Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 45.491 ms
+info: 2021-07-01T05:35:48.625Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:35:48.650Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 30.202 ms
+info: 2021-07-01T05:35:49.319Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 200 6020 - 15.556 ms
+info: 2021-07-01T05:35:49.924Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 200 6020 - 9.953 ms
+info: 2021-07-01T05:35:50.147Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 2.499 ms
+info: 2021-07-01T05:35:51.071Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 22.596 ms
+info: 2021-07-01T05:36:04.793Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 4.964 ms
+info: 2021-07-01T05:36:18.092Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 4.814 ms
+info: 2021-07-01T05:36:19.150Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 16.043 ms
+info: 2021-07-01T05:36:19.411Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 3.936 ms
+info: 2021-07-01T05:36:20.221Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 2.140 ms
+info: 2021-07-01T05:36:20.560Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 3.326 ms
+info: 2021-07-01T05:36:21.942Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 2.265 ms
+info: 2021-07-01T05:36:22.416Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:36:22.436Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:36:22.440Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 39.907 ms
+info: 2021-07-01T05:36:22.944Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:36:23.005Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:36:23.021Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 31.726 ms
+info: 2021-07-01T05:36:23.251Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 65.939 ms
+info: 2021-07-01T05:36:23.287Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 455.600 ms
+info: 2021-07-01T05:36:23.692Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 2.490 ms
+info: 2021-07-01T05:36:24.221Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 3.035 ms
+info: 2021-07-01T05:36:25.893Z ::1 - GET /team/getTeamImage/yyqXoMQUXZCTVvGokoDF5wxT.png HTTP/1.1 304 - - 20.672 ms
+info: 2021-07-01T05:36:32.261Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:36:32.393Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 357.930 ms
+info: 2021-07-01T05:36:34.073Z ::1 - GET /team/getTeamImage/EsXY1aj0jtR1npwJKeoRCTFg.png HTTP/1.1 200 39781 - 27.423 ms
+info: 2021-07-01T05:37:26.873Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:37:27.015Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 360.743 ms
+info: 2021-07-01T05:39:00.379Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 3.016 ms
+info: 2021-07-01T05:39:00.401Z ::1 - GET /team/getTeamImage/EsXY1aj0jtR1npwJKeoRCTFg.png HTTP/1.1 304 - - 4.681 ms
+info: 2021-07-01T05:39:31.813Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:39:31.922Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:39:31.928Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 126.797 ms
+info: 2021-07-01T05:39:32.159Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:39:32.214Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 69.033 ms
+info: 2021-07-01T05:39:32.981Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:39:33.113Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 254.077 ms
+info: 2021-07-01T05:39:33.596Z ::1 - GET /team/getTeamImage/5qdLSqQpkWOOMc4XgTiZzKEp.png HTTP/1.1 200 2540 - 25.561 ms
+info: 2021-07-01T05:39:52.127Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:39:52.183Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:39:52.188Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 129.681 ms
+info: 2021-07-01T05:39:52.273Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:39:52.324Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 41.812 ms
+info: 2021-07-01T05:39:52.556Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:39:52.651Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 80.722 ms
+info: 2021-07-01T05:39:53.373Z ::1 - GET /team/getTeamImage/CjjTjZv3D2J1V-XACxwqSXV3.png HTTP/1.1 200 39781 - 7.146 ms
+info: 2021-07-01T05:40:13.628Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:40:13.689Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:40:13.720Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 61.110 ms
+info: 2021-07-01T05:40:13.865Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:40:13.938Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 50.317 ms
+info: 2021-07-01T05:40:14.150Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:40:14.394Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 91.644 ms
+info: 2021-07-01T05:40:14.571Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 200 6020 - 7.133 ms
+info: 2021-07-01T05:40:15.440Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 10.884 ms
+info: 2021-07-01T05:40:15.578Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 4.567 ms
+info: 2021-07-01T05:40:15.824Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 3.117 ms
+info: 2021-07-01T05:40:15.952Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 3.815 ms
+info: 2021-07-01T05:40:22.804Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 4.333 ms
+info: 2021-07-01T05:40:36.320Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 1.927 ms
+info: 2021-07-01T05:40:36.976Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 11.370 ms
+info: 2021-07-01T05:40:37.582Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 5.229 ms
+info: 2021-07-01T05:40:37.816Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 3.170 ms
+info: 2021-07-01T05:40:38.333Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 5.242 ms
+info: 2021-07-01T05:40:38.588Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:40:38.613Z El equipo con id [60dd1d0edca64633141ab290] ha sido actualizado
+info: 2021-07-01T05:40:38.616Z ::1 - PUT /team/updateTeam/60dd1d0edca64633141ab290 HTTP/1.1 200 137 - 97.688 ms
+info: 2021-07-01T05:40:38.758Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:40:38.912Z ::1 - PUT /team/uploadTeamImage/60dd1d0edca64633141ab290 HTTP/1.1 200 149 - 61.525 ms
+info: 2021-07-01T05:40:39.072Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 3.689 ms
+info: 2021-07-01T05:40:40.420Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:40:40.681Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 336.588 ms
+info: 2021-07-01T05:40:40.903Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 648.120 ms
+info: 2021-07-01T05:40:41.315Z ::1 - GET /team/getTeamImage/p_IEi1EYJle3hgKunZQinnze.png HTTP/1.1 304 - - 138.913 ms
+info: 2021-07-01T05:40:41.589Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 200 39781 - 3.400 ms
+info: 2021-07-01T05:41:14.480Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 3.283 ms
+info: 2021-07-01T05:41:14.484Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 304 - - 66.893 ms
+info: 2021-07-01T05:43:03.553Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 338.238 ms
+info: 2021-07-01T05:43:03.563Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 304 - - 10.810 ms
+info: 2021-07-01T05:43:31.153Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 8.023 ms
+info: 2021-07-01T05:43:31.162Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 304 - - 14.492 ms
+info: 2021-07-01T05:47:10.203Z Escuchando en el puerto 3000
+info: 2021-07-01T05:50:07.373Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 21.676 ms
+info: 2021-07-01T05:50:07.412Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 304 - - 337.934 ms
+info: 2021-07-01T05:51:28.672Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 304 - - 7.908 ms
+info: 2021-07-01T05:51:28.700Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 17.270 ms
+info: 2021-07-01T05:52:08.065Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:52:08.203Z El equipo ha sido creado
+info: 2021-07-01T05:52:08.559Z Se añadio un equipo a la liga
+info: 2021-07-01T05:52:08.857Z ::1 - POST /team/create/60d56a5595636b0bac8ba5c5 HTTP/1.1 201 116 - 748.307 ms
+info: 2021-07-01T05:52:08.947Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:52:09.138Z ::1 - PUT /team/uploadTeamImage/60dd5808c9f8191678f06a23 HTTP/1.1 200 161 - 186.279 ms
+info: 2021-07-01T05:52:09.490Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:52:09.519Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 449 - 55.313 ms
+info: 2021-07-01T05:52:09.621Z ::1 - GET /team/getTeamImage/hLytcx32bTnALuMkM8pWau-V.gif HTTP/1.1 200 28083 - 9.686 ms
+info: 2021-07-01T05:52:31.049Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:52:31.176Z El equipo con id [60dd5808c9f8191678f06a23] ha sido actualizado
+info: 2021-07-01T05:52:31.202Z ::1 - PUT /team/updateTeam/60dd5808c9f8191678f06a23 HTTP/1.1 200 151 - 42.405 ms
+info: 2021-07-01T05:52:31.274Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:52:32.622Z ::1 - PUT /team/uploadTeamImage/60dd5808c9f8191678f06a23 HTTP/1.1 200 163 - 1225.060 ms
+info: 2021-07-01T05:52:32.976Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:52:33.143Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 451 - 319.675 ms
+info: 2021-07-01T05:52:34.649Z ::1 - GET /team/getTeamImage/n3u1aE5fgcFUNtwx80JQWvJT.png HTTP/1.1 200 3578652 - 13.155 ms
+info: 2021-07-01T05:52:46.223Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:52:46.281Z El equipo con id [60dd5808c9f8191678f06a23] ha sido eliminado con exito
+info: 2021-07-01T05:52:46.418Z ::1 - DELETE /team/deleteTeam/60dd5808c9f8191678f06a23/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 149 - 153.167 ms
+info: 2021-07-01T05:52:46.535Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T05:52:46.570Z ::1 - GET /league/oneLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 339 - 40.391 ms
+info: 2021-07-01T05:56:32.236Z Escuchando en el puerto 3000
+info: 2021-07-01T06:07:34.466Z Usuario [admin] completo la autenticacion con exito
+info: 2021-07-01T06:07:34.492Z ::1 - POST /user/login HTTP/1.1 200 562 - 512.183 ms
+info: 2021-07-01T06:07:59.626Z ::1 - GET /user/getUsers HTTP/1.1 200 2904 - 69.851 ms
+info: 2021-07-01T06:08:08.631Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:08:08.693Z ::1 - GET /league/getLeagues HTTP/1.1 200 565 - 108.722 ms
+info: 2021-07-01T06:08:10.266Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 65.576 ms
+info: 2021-07-01T06:08:10.283Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 304 - - 70.244 ms
+info: 2021-07-01T06:08:15.961Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:08:15.989Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 51.514 ms
+info: 2021-07-01T06:08:18.924Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:08:19.131Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 238.663 ms
+info: 2021-07-01T06:08:22.237Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:08:22.483Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 166.693 ms
+info: 2021-07-01T06:08:42.094Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-07-01T06:08:42.112Z Ya existe un equipo con el nombre [equipo a]
+info: 2021-07-01T06:08:42.119Z ::1 - POST /team/create/60d574cec73143076442653d HTTP/1.1 409 313 - 36.972 ms
+info: 2021-07-01T06:08:49.552Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:08:50.020Z El equipo ha sido creado
+info: 2021-07-01T06:08:50.357Z Se añadio un equipo a la liga
+info: 2021-07-01T06:08:50.369Z ::1 - POST /team/create/60d574cec73143076442653d HTTP/1.1 201 104 - 867.681 ms
+info: 2021-07-01T06:08:50.403Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:08:50.616Z ::1 - PUT /team/uploadTeamImage/60dd5bf123f01f36dce1d50b HTTP/1.1 200 149 - 227.765 ms
+info: 2021-07-01T06:08:50.850Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:08:50.917Z ::1 - GET /league/oneLeague/60d574cec73143076442653d HTTP/1.1 200 250 - 59.497 ms
+info: 2021-07-01T06:08:57.399Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:08:57.490Z ::1 - GET /league/getLeagues HTTP/1.1 200 662 - 71.583 ms
+info: 2021-07-01T06:08:58.724Z ::1 - GET /team/getTeamImage/LmFhgbsU3_vwhM4ny5p97uFd.png HTTP/1.1 200 2540 - 7.769 ms
+info: 2021-07-01T06:09:16.126Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:09:16.206Z El equipo ha sido creado
+info: 2021-07-01T06:09:16.236Z Se añadio un equipo a la liga
+info: 2021-07-01T06:09:16.240Z ::1 - POST /team/create/60d574cec73143076442653d HTTP/1.1 201 104 - 160.935 ms
+info: 2021-07-01T06:09:16.323Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:09:16.477Z ::1 - PUT /team/uploadTeamImage/60dd5c0c23f01f36dce1d51c HTTP/1.1 200 149 - 84.395 ms
+info: 2021-07-01T06:09:16.588Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:09:16.635Z ::1 - GET /league/oneLeague/60d574cec73143076442653d HTTP/1.1 200 348 - 41.690 ms
+info: 2021-07-01T06:09:16.773Z ::1 - GET /team/getTeamImage/SQNKb_lWZrOaGa1TFjXvGMEl.gif HTTP/1.1 200 28083 - 4.051 ms
+info: 2021-07-01T06:09:44.478Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:09:44.528Z El equipo con id [60dd5bf123f01f36dce1d50b] ha sido actualizado
+info: 2021-07-01T06:09:44.534Z ::1 - PUT /team/updateTeam/60dd5bf123f01f36dce1d50b HTTP/1.1 200 139 - 108.971 ms
+info: 2021-07-01T06:09:44.688Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:09:44.863Z ::1 - PUT /team/uploadTeamImage/60dd5bf123f01f36dce1d50b HTTP/1.1 200 151 - 82.164 ms
+info: 2021-07-01T06:09:45.145Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:09:45.259Z ::1 - GET /league/oneLeague/60d574cec73143076442653d HTTP/1.1 200 350 - 65.385 ms
+info: 2021-07-01T06:09:45.504Z ::1 - GET /team/getTeamImage/NcNxdWquUajc_GV1zPWgdINl.jpg HTTP/1.1 200 218656 - 8.576 ms
+info: 2021-07-01T06:09:52.630Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:09:52.675Z El equipo con id [60dd5bf123f01f36dce1d50b] ha sido eliminado con exito
+info: 2021-07-01T06:09:52.704Z ::1 - DELETE /team/deleteTeam/60dd5bf123f01f36dce1d50b/60d574cec73143076442653d HTTP/1.1 200 137 - 168.323 ms
+info: 2021-07-01T06:09:52.804Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:09:52.827Z ::1 - GET /league/oneLeague/60d574cec73143076442653d HTTP/1.1 200 250 - 48.886 ms
+info: 2021-07-01T06:10:10.666Z Usuario [admin] completo la autenticacion con exito
+info: 2021-07-01T06:10:10.749Z ::1 - POST /user/login HTTP/1.1 200 562 - 166.019 ms
+info: 2021-07-01T06:10:13.317Z ::1 - GET /user/getUsers HTTP/1.1 200 2930 - 48.646 ms
+info: 2021-07-01T06:10:27.513Z ::1 - POST /user/create HTTP/1.1 400 321 - 16.599 ms
+info: 2021-07-01T06:10:35.938Z ::1 - POST /user/create HTTP/1.1 400 321 - 40.874 ms
+info: 2021-07-01T06:10:48.881Z ::1 - POST /user/create HTTP/1.1 201 266 - 240.171 ms
+info: 2021-07-01T06:10:59.131Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:10:59.338Z Usuario con id [60dd5c6823f01f36dce1d53f] ha sido actualizado con exito
+info: 2021-07-01T06:10:59.341Z ::1 - PUT /user/updateUser/60dd5c6823f01f36dce1d53f HTTP/1.1 200 273 - 242.896 ms
+info: 2021-07-01T06:10:59.494Z ::1 - GET /user/getUsers HTTP/1.1 200 3163 - 29.049 ms
+info: 2021-07-01T06:11:05.012Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:11:05.025Z El usuario con id [60dd5c6823f01f36dce1d53f] fue eliminado
+info: 2021-07-01T06:11:05.038Z ::1 - DELETE /user/deleteUser/60dd5c6823f01f36dce1d53f HTTP/1.1 200 271 - 31.886 ms
+info: 2021-07-01T06:11:05.221Z ::1 - GET /user/getUsers HTTP/1.1 200 2930 - 46.938 ms
+info: 2021-07-01T06:11:10.140Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:11:10.175Z ::1 - GET /league/getLeagues HTTP/1.1 200 662 - 100.026 ms
+info: 2021-07-01T06:11:10.775Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 34.155 ms
+info: 2021-07-01T06:11:17.919Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-07-01T06:11:17.924Z ::1 - POST /user/login HTTP/1.1 200 666 - 143.205 ms
+info: 2021-07-01T06:11:25.139Z ::1 - GET /team/getTeamImage/undefined HTTP/1.1 404 32 - 3.381 ms
+info: 2021-07-01T06:12:00.879Z ::1 - GET /team/getTeamImage/undefined HTTP/1.1 404 32 - 3.280 ms
+info: 2021-07-01T06:12:21.899Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:12:22.066Z Usuario con id [60d1607987193f2620b48703] ha sido actualizado con exito
+info: 2021-07-01T06:12:22.069Z ::1 - PUT /user/updateUser/60d1607987193f2620b48703 HTTP/1.1 200 340 - 145.886 ms
+info: 2021-07-01T06:12:51.026Z Usuario [admin] completo la autenticacion con exito
+info: 2021-07-01T06:12:51.033Z ::1 - POST /user/login HTTP/1.1 200 562 - 147.441 ms
+info: 2021-07-01T06:12:54.430Z ::1 - GET /user/getUsers HTTP/1.1 200 2948 - 69.774 ms
+info: 2021-07-01T06:13:04.835Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-07-01T06:13:04.850Z ::1 - POST /user/login HTTP/1.1 200 684 - 147.063 ms
+info: 2021-07-01T06:13:22.317Z ::1 - GET /team/getTeamImage/undefined HTTP/1.1 404 32 - 2.293 ms
+info: 2021-07-01T06:16:03.164Z ::1 - GET /team/getTeamImage/undefined HTTP/1.1 404 32 - 1.906 ms
+info: 2021-07-01T06:16:25.770Z ::1 - GET /team/getTeamImage/undefined HTTP/1.1 404 32 - 16.503 ms
+info: 2021-07-01T06:19:28.720Z Escuchando en el puerto 3000
+info: 2021-07-01T06:19:50.645Z ::1 - GET /team/getTeamImage/undefined HTTP/1.1 404 32 - 22.600 ms
+info: 2021-07-01T06:21:37.873Z ::1 - GET /team/getTeamImage/undefined HTTP/1.1 404 32 - 4.004 ms
+info: 2021-07-01T06:23:37.613Z Escuchando en el puerto 3000
+info: 2021-07-01T06:26:37.736Z Escuchando en el puerto 3000
+info: 2021-07-01T06:27:02.478Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-07-01T06:27:02.496Z ::1 - POST /user/login HTTP/1.1 200 684 - 597.633 ms
+info: 2021-07-01T06:27:08.574Z ::1 - GET /team/getTeamImage/undefined HTTP/1.1 404 32 - 9.400 ms
+info: 2021-07-01T06:30:25.249Z Escuchando en el puerto 3000
+info: 2021-07-01T06:30:35.596Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-07-01T06:30:35.622Z ::1 - POST /user/login HTTP/1.1 200 684 - 237.877 ms
+info: 2021-07-01T06:32:08.644Z Escuchando en el puerto 3000
+info: 2021-07-01T06:32:17.394Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-07-01T06:32:17.412Z ::1 - POST /user/login HTTP/1.1 200 755 - 252.233 ms
+info: 2021-07-01T06:32:49.127Z ::1 - GET /team/getTeamImage/SQNKb_lWZrOaGa1TFjXvGMEl.gif HTTP/1.1 304 - - 36.330 ms
+info: 2021-07-01T06:33:11.059Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:33:11.180Z El equipo con id [60dd5c0c23f01f36dce1d51c] ha sido actualizado
+info: 2021-07-01T06:33:11.185Z ::1 - PUT /team/updateTeam/60dd5c0c23f01f36dce1d51c HTTP/1.1 200 137 - 144.501 ms
+info: 2021-07-01T06:33:11.324Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:33:11.350Z ::1 - GET /league/oneLeague/60d574cec73143076442653d HTTP/1.1 200 250 - 60.790 ms
+info: 2021-07-01T06:33:34.039Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:33:34.458Z El equipo ha sido creado
+info: 2021-07-01T06:33:34.561Z Se añadio un equipo a la liga
+info: 2021-07-01T06:33:34.565Z ::1 - POST /team/create/60d574cec73143076442653d HTTP/1.1 201 104 - 527.395 ms
+info: 2021-07-01T06:33:34.610Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:33:34.928Z ::1 - PUT /team/uploadTeamImage/60dd61bee2178704285f04ce HTTP/1.1 200 149 - 237.749 ms
+info: 2021-07-01T06:33:35.480Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:33:35.525Z ::1 - GET /league/oneLeague/60d574cec73143076442653d HTTP/1.1 200 348 - 130.592 ms
+info: 2021-07-01T06:33:35.675Z ::1 - GET /team/getTeamImage/_ePa-DHJ63R1txxfleOc9S8O.png HTTP/1.1 200 2540 - 17.898 ms
+info: 2021-07-01T06:33:44.121Z Usuario [admin] completo la autenticacion con exito
+info: 2021-07-01T06:33:44.129Z ::1 - POST /user/login HTTP/1.1 200 704 - 154.800 ms
+info: 2021-07-01T06:33:47.973Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:33:48.001Z ::1 - GET /league/getLeagues HTTP/1.1 200 760 - 60.958 ms
+info: 2021-07-01T06:33:58.887Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 2.750 ms
+info: 2021-07-01T06:33:58.911Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 304 - - 3.222 ms
+info: 2021-07-01T06:34:01.262Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:34:01.357Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 59.109 ms
+info: 2021-07-01T06:34:03.994Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T06:34:04.049Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 60.334 ms
+info: 2021-07-01T06:37:14.823Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-07-01T06:37:14.874Z ::1 - POST /user/login HTTP/1.1 200 853 - 168.665 ms
+info: 2021-07-01T06:37:22.761Z ::1 - GET /team/getTeamImage/SQNKb_lWZrOaGa1TFjXvGMEl.gif HTTP/1.1 304 - - 4.651 ms
+info: 2021-07-01T06:37:22.883Z ::1 - GET /team/getTeamImage/_ePa-DHJ63R1txxfleOc9S8O.png HTTP/1.1 304 - - 75.745 ms

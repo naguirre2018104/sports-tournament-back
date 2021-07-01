@@ -6,7 +6,7 @@ const { UserDataAlreadyInUse } = require("./user.error");
 function foundUser() {
   return User.find({})
     .populate("history")
-    .populate("leagues");
+    .populate({path: "leagues", populate:{path: "teams"}});
 }
 
 function createUser(user, hashedPassword) {
@@ -99,12 +99,12 @@ function foundOneUser({ username: username, id: id }) {
   if (username) {
     return User.findOne({ username: username })
       .populate("history")
-      .populate("leagues");
+      .populate({path: "leagues", populate:{path: "teams"}});
   }
   if (id) {
     return User.findById(id)
-      .populate("history")
-      .populate("leagues");
+    .populate("history")
+    .populate({path: "leagues", populate:{path: "teams"}});
   }
   throw new Error(
     "Funcion obtener un usuario del controlador fue llamado sin especificar el username o id"

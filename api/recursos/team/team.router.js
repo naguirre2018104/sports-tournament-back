@@ -12,6 +12,9 @@ const procesarErrores = require("../../libs/errorHandler").procesarErrores;
 const { saveImageTeam } = require("../../data/images.controller");
 const { TeamDataAlreadyInUse, TeamDoesNotExist } = require("./team.error");
 
+const connectMultiparty = require('connect-multiparty');
+const upload = connectMultiparty({ uploadDir: './uploads/teams'});
+
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 const teamRouter = express.Router();
 
@@ -78,7 +81,7 @@ teamRouter.post(
 );
 
 teamRouter.put(
-  "/:id",
+  "/updateTeam/:id",
   [jwtAuthenticate, validarId, validateUpdate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
@@ -101,7 +104,7 @@ teamRouter.put(
 );
 
 teamRouter.delete(
-  "/:id/:idL",
+  "/deleteTeam/:id/:idL",
   [jwtAuthenticate],
   procesarErrores(async (req, res) => {
     let id = req.params.id;
@@ -148,5 +151,8 @@ teamRouter.put(
     res.status(200).send({ message: "Imagen subida", team: teamUpdated });
   })
 );
+
+teamRouter.put("/uploadTeamImage/:id", [jwtAuthenticate, upload],teamController.uploadImage);
+teamRouter.get("/getTeamImage/:fileName", [upload], teamController.getImage);
 
 module.exports = teamRouter;
