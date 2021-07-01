@@ -22957,3 +22957,140 @@ info: 2021-07-01T06:37:14.823Z Usuario [noelale] completo la autenticacion con e
 info: 2021-07-01T06:37:14.874Z ::1 - POST /user/login HTTP/1.1 200 853 - 168.665 ms
 info: 2021-07-01T06:37:22.761Z ::1 - GET /team/getTeamImage/SQNKb_lWZrOaGa1TFjXvGMEl.gif HTTP/1.1 304 - - 4.651 ms
 info: 2021-07-01T06:37:22.883Z ::1 - GET /team/getTeamImage/_ePa-DHJ63R1txxfleOc9S8O.png HTTP/1.1 304 - - 75.745 ms
+info: 2021-07-01T15:20:32.644Z Escuchando en el puerto 3000
+info: 2021-07-01T15:32:14.026Z Usuario [noelale] completo la autenticacion con exito
+info: 2021-07-01T15:32:14.063Z ::1 - POST /user/login HTTP/1.1 200 853 - 3356.382 ms
+info: 2021-07-01T15:32:22.346Z ::1 - GET /team/getTeamImage/_ePa-DHJ63R1txxfleOc9S8O.png HTTP/1.1 304 - - 14.386 ms
+info: 2021-07-01T15:32:22.367Z ::1 - GET /team/getTeamImage/SQNKb_lWZrOaGa1TFjXvGMEl.gif HTTP/1.1 304 - - 8.877 ms
+info: 2021-07-01T15:32:35.521Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:32:35.837Z Liga con id [60d574cec73143076442653d] ha sido actualizada
+info: 2021-07-01T15:32:35.843Z ::1 - PUT /league/updateLeague/60d574cec73143076442653d HTTP/1.1 200 206 - 465.976 ms
+info: 2021-07-01T15:32:35.963Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:32:36.035Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 670 - 64.137 ms
+info: 2021-07-01T15:32:48.193Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:32:48.219Z Liga con id [60d574cec73143076442653d] ha sido actualizada
+info: 2021-07-01T15:32:48.221Z ::1 - PUT /league/updateLeague/60d574cec73143076442653d HTTP/1.1 200 197 - 47.655 ms
+info: 2021-07-01T15:32:48.373Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:32:48.421Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 661 - 59.293 ms
+info: 2021-07-01T15:32:55.790Z ::1 - GET /team/getTeamImage/SQNKb_lWZrOaGa1TFjXvGMEl.gif HTTP/1.1 304 - - 5.306 ms
+info: 2021-07-01T15:32:55.852Z ::1 - GET /team/getTeamImage/_ePa-DHJ63R1txxfleOc9S8O.png HTTP/1.1 304 - - 4.025 ms
+info: 2021-07-01T15:33:03.225Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:33:03.977Z Usuario con id [60d1607987193f2620b48703] fue actualizado y se elimino su liga
+info: 2021-07-01T15:33:03.981Z ::1 - DELETE /league/deleteLeague/60d57805c73143076442654b HTTP/1.1 200 144 - 830.601 ms
+info: 2021-07-01T15:33:04.104Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:33:04.139Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 554 - 93.148 ms
+info: 2021-07-01T15:33:07.155Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:33:07.248Z Usuario con id [60d1607987193f2620b48703] fue actualizado y se elimino su liga
+info: 2021-07-01T15:33:07.270Z ::1 - DELETE /league/deleteLeague/60d574cec73143076442653d HTTP/1.1 200 195 - 225.922 ms
+info: 2021-07-01T15:33:07.315Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:33:07.336Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 255 - 29.917 ms
+info: 2021-07-01T15:33:25.493Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:33:26.935Z El usuario con id [60d1607987193f2620b48703] ha sido actualizado con su nueva liga
+info: 2021-07-01T15:33:26.940Z ::1 - POST /league/create HTTP/1.1 201 137 - 1476.756 ms
+info: 2021-07-01T15:33:27.213Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:33:27.256Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 357 - 98.800 ms
+info: 2021-07-01T15:33:42.729Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:33:42.798Z El usuario con id [60d1607987193f2620b48703] ha sido actualizado con su nueva liga
+info: 2021-07-01T15:33:42.813Z ::1 - POST /league/create HTTP/1.1 201 134 - 142.553 ms
+info: 2021-07-01T15:33:42.997Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:33:43.026Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 457 - 108.650 ms
+info: 2021-07-01T15:35:31.858Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:35:31.947Z El usuario con id [60d1607987193f2620b48703] ha sido actualizado con su nueva liga
+info: 2021-07-01T15:35:31.959Z ::1 - POST /league/create HTTP/1.1 201 137 - 132.785 ms
+info: 2021-07-01T15:35:32.190Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:35:32.238Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 560 - 51.685 ms
+info: 2021-07-01T15:37:58.731Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:37:59.064Z Usuario con id [60d1607987193f2620b48703] fue actualizado y se elimino su liga
+info: 2021-07-01T15:37:59.197Z ::1 - DELETE /league/deleteLeague/60dde0456ecf6f1054a21610 HTTP/1.1 200 140 - 474.498 ms
+info: 2021-07-01T15:37:59.558Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:37:59.715Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 457 - 74.015 ms
+info: 2021-07-01T15:38:03.291Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:38:03.427Z Usuario con id [60d1607987193f2620b48703] fue actualizado y se elimino su liga
+info: 2021-07-01T15:38:03.440Z ::1 - DELETE /league/deleteLeague/60dde0566ecf6f1054a2161a HTTP/1.1 200 137 - 234.099 ms
+info: 2021-07-01T15:38:03.637Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:38:03.664Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 357 - 82.857 ms
+info: 2021-07-01T15:38:08.346Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:38:08.384Z Usuario con id [60d1607987193f2620b48703] fue actualizado y se elimino su liga
+info: 2021-07-01T15:38:08.454Z ::1 - DELETE /league/deleteLeague/60dde0c36ecf6f1054a21624 HTTP/1.1 200 140 - 190.553 ms
+info: 2021-07-01T15:38:08.612Z Usuario noelale suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:38:08.756Z ::1 - GET /user/oneUser/60d1607987193f2620b48703 HTTP/1.1 200 255 - 107.659 ms
+info: 2021-07-01T15:38:34.778Z Usuario [admin] completo la autenticacion con exito
+info: 2021-07-01T15:38:35.436Z ::1 - POST /user/login HTTP/1.1 200 704 - 1034.828 ms
+info: 2021-07-01T15:38:47.198Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:38:47.455Z ::1 - GET /league/getLeagues HTTP/1.1 200 343 - 263.452 ms
+info: 2021-07-01T15:38:49.234Z ::1 - GET /user/getUsers HTTP/1.1 200 2843 - 81.393 ms
+info: 2021-07-01T15:38:55.500Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:38:55.631Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 364.362 ms
+info: 2021-07-01T15:38:57.404Z ::1 - GET /team/getTeamImage/hlq4It7IOBGRtBKh8vkia2V5.png HTTP/1.1 304 - - 7.091 ms
+info: 2021-07-01T15:38:57.429Z ::1 - GET /team/getTeamImage/hss8jvwFBJIqXFt04lvRNV8m.png HTTP/1.1 304 - - 34.591 ms
+info: 2021-07-01T15:39:02.420Z ::1 - GET /user/getUsers HTTP/1.1 304 - - 55.516 ms
+info: 2021-07-01T15:39:03.554Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:03.624Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 133.287 ms
+info: 2021-07-01T15:39:06.371Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:06.567Z Usuario con id [60d299be28a1dbc036c8809b] fue actualizado y se elimino su liga
+info: 2021-07-01T15:39:06.682Z ::1 - DELETE /league/deleteLeague/60d56a5595636b0bac8ba5c5 HTTP/1.1 200 196 - 232.806 ms
+info: 2021-07-01T15:39:07.505Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:07.657Z ::1 - GET /league/getLeagues HTTP/1.1 200 43 - 380.761 ms
+info: 2021-07-01T15:39:08.969Z ::1 - GET /user/getUsers HTTP/1.1 200 2543 - 31.049 ms
+info: 2021-07-01T15:39:10.188Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:10.278Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 98.627 ms
+info: 2021-07-01T15:39:18.119Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:18.407Z El usuario con id [60d299be28a1dbc036c8809b] ha sido actualizado con su nueva liga
+info: 2021-07-01T15:39:18.411Z ::1 - POST /league/create HTTP/1.1 201 146 - 336.225 ms
+info: 2021-07-01T15:39:18.565Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:18.624Z ::1 - GET /league/getLeagues HTTP/1.1 200 154 - 52.977 ms
+info: 2021-07-01T15:39:28.898Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:29.000Z Liga con id [60dde1a66ecf6f1054a2166a] ha sido actualizada
+info: 2021-07-01T15:39:29.005Z ::1 - PUT /league/updateLeague/60dde1a66ecf6f1054a2166a HTTP/1.1 200 152 - 164.005 ms
+info: 2021-07-01T15:39:29.346Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:29.387Z ::1 - GET /league/getLeagues HTTP/1.1 200 155 - 104.861 ms
+info: 2021-07-01T15:39:35.388Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:35.429Z El usuario con id [60d299be28a1dbc036c8809b] ha sido actualizado con su nueva liga
+info: 2021-07-01T15:39:35.446Z ::1 - POST /league/create HTTP/1.1 201 137 - 132.480 ms
+info: 2021-07-01T15:39:35.640Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:35.719Z ::1 - GET /league/getLeagues HTTP/1.1 200 258 - 95.507 ms
+info: 2021-07-01T15:39:39.840Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:39.978Z Usuario con id [60d299be28a1dbc036c8809b] fue actualizado y se elimino su liga
+info: 2021-07-01T15:39:40.151Z ::1 - DELETE /league/deleteLeague/60dde1b76ecf6f1054a2167a HTTP/1.1 200 140 - 301.779 ms
+info: 2021-07-01T15:39:40.321Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:39:40.441Z ::1 - GET /league/getLeagues HTTP/1.1 200 155 - 117.758 ms
+info: 2021-07-01T15:40:07.619Z Usuario admin suministro un token valido. Autenticacion completada
+warn: 2021-07-01T15:40:07.726Z Ya existe un equipo con el nombre [equipo a]
+info: 2021-07-01T15:40:08.012Z ::1 - POST /team/create/60dde1a66ecf6f1054a2166a HTTP/1.1 409 349 - 207.666 ms
+info: 2021-07-01T15:40:19.916Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:40:19.957Z El equipo ha sido creado
+info: 2021-07-01T15:40:19.998Z Se añadio un equipo a la liga
+info: 2021-07-01T15:40:20.000Z ::1 - POST /team/create/60dde1a66ecf6f1054a2166a HTTP/1.1 201 113 - 102.536 ms
+info: 2021-07-01T15:40:20.136Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:40:20.381Z ::1 - PUT /team/uploadTeamImage/60dde1e36ecf6f1054a2168e HTTP/1.1 200 158 - 205.718 ms
+info: 2021-07-01T15:40:20.458Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:40:20.781Z ::1 - GET /league/oneLeague/60dde1a66ecf6f1054a2166a HTTP/1.1 200 257 - 59.891 ms
+info: 2021-07-01T15:40:24.592Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:40:24.653Z ::1 - GET /league/getLeagues HTTP/1.1 200 261 - 54.056 ms
+info: 2021-07-01T15:40:26.193Z ::1 - GET /team/getTeamImage/XOrMrIdqtJ_IMupsdO0pA56G.png HTTP/1.1 200 2540 - 21.482 ms
+info: 2021-07-01T15:40:47.883Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:40:48.014Z El equipo ha sido creado
+info: 2021-07-01T15:40:48.032Z Se añadio un equipo a la liga
+info: 2021-07-01T15:40:48.042Z ::1 - POST /team/create/60dde1a66ecf6f1054a2166a HTTP/1.1 201 113 - 274.972 ms
+info: 2021-07-01T15:40:48.433Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:40:48.633Z ::1 - PUT /team/uploadTeamImage/60dde1ff6ecf6f1054a216a3 HTTP/1.1 200 158 - 116.586 ms
+info: 2021-07-01T15:40:49.015Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:40:49.340Z ::1 - GET /league/oneLeague/60dde1a66ecf6f1054a2166a HTTP/1.1 200 364 - 246.701 ms
+info: 2021-07-01T15:40:50.421Z ::1 - GET /team/getTeamImage/3kr_TdyUyYqFwKSqoJD2Wtlj.png HTTP/1.1 200 39781 - 66.557 ms
+info: 2021-07-01T15:41:11.579Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:41:11.743Z El equipo con id [60dde1ff6ecf6f1054a216a3] ha sido actualizado
+info: 2021-07-01T15:41:11.754Z ::1 - PUT /team/updateTeam/60dde1ff6ecf6f1054a216a3 HTTP/1.1 200 146 - 111.757 ms
+info: 2021-07-01T15:41:11.922Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:41:12.058Z ::1 - PUT /team/uploadTeamImage/60dde1ff6ecf6f1054a216a3 HTTP/1.1 200 158 - 54.580 ms
+info: 2021-07-01T15:41:12.695Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:41:12.812Z ::1 - GET /league/oneLeague/60dde1a66ecf6f1054a2166a HTTP/1.1 200 364 - 166.830 ms
+info: 2021-07-01T15:41:13.803Z ::1 - GET /team/getTeamImage/0nPOqO0DQage-4u7JN06C-ej.gif HTTP/1.1 200 28083 - 21.088 ms
+info: 2021-07-01T15:41:20.030Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:41:20.132Z El equipo con id [60dde1ff6ecf6f1054a216a3] ha sido eliminado con exito
+info: 2021-07-01T15:41:20.242Z ::1 - DELETE /team/deleteTeam/60dde1ff6ecf6f1054a216a3/60dde1a66ecf6f1054a2166a HTTP/1.1 200 144 - 301.510 ms
+info: 2021-07-01T15:41:20.372Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:41:20.425Z ::1 - GET /league/oneLeague/60dde1a66ecf6f1054a2166a HTTP/1.1 200 257 - 68.942 ms
+info: 2021-07-01T15:41:22.890Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:41:22.920Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 65.773 ms
+info: 2021-07-01T15:42:06.795Z Usuario admin suministro un token valido. Autenticacion completada
+info: 2021-07-01T15:42:06.886Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 86.069 ms

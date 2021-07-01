@@ -59,7 +59,7 @@ function uploadImage(req, res){
           // Ruta en la que llega la imagen.
           var filePath = req.files.img.path;
           // Split separa en jerarquía la ruta de la imagen. (Para linux es con solo una barra inversa "\").
-          var fileSplit = filePath.split('\\');
+          var fileSplit = filePath.split('\\') || filePath.split('\\');
           // Obtiene la número 2 sea el caso Documentos/Imágenes/Imagen.jpg 0/1/2.
           var fileName = fileSplit[2];
           // Separa la extensión de lo obtenido arriba y separa la extención Imagen.jpg 0.1.
