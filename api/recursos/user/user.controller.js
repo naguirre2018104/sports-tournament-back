@@ -2,6 +2,8 @@ const User = require("./user.model");
 const bcrypt = require("bcrypt");
 const log = require("../../../utils/logger");
 const { UserDataAlreadyInUse } = require("./user.error");
+const fs = require("fs");
+const path = require("path");
 
 function foundUser() {
   return User.find({})
@@ -115,6 +117,59 @@ function saveimg(id, imageUrl) {
   return User.findOneAndUpdate({ _id: id }, { img: imageUrl }, { new: true });
 }
 
+function uploadImage(req, res){
+  var userId = req.params.id;
+  var files = req.body;
+  var fileName;
+
+      if(req.files){
+          var filePath = req.files.img.path;
+          var fileSplit = filePath.split('\\') || filePath.split('\\');
+          var fileName = fileSplit[2];
+          var extension = fileName.split('\.');
+          var fileExt = extension[1];
+          if( fileExt == 'png' ||
+              fileExt == 'jpg' ||
+              fileExt == 'jpeg' ||
+              fileExt == 'gif'){
+                  User.findByIdAndUpdate(userId, {img: fileName}, {new:true}, (err, userUpdated)=>{
+                      if(err){
+                          res.status(500).send({message: 'Error general'});
+                          console.log(err);
+                      }else if(userUpdated){
+                          res.send({user: userUpdated, userImage:userUpdated.img});
+                      }else{
+                          res.status(400).send({message: 'No se ha podido actualizar'});
+                      }
+                  });
+              }else{
+                  fs.unlink(filePath, (err)=>{ // Se elimina el archivo por no tener una extensión válida.
+                      if(err){
+                          res.status(500).send({message: 'Extensión no válida y error al eliminar archivo'});
+                          console.log(err);
+                      }else{
+                          res.send({message: 'Extensión no válida'});
+                      }
+                  })
+              }
+      }else{
+          res.status(400).send({message: 'No has enviado imagen a subir'});
+      }
+}
+
+function getImage(req, res){
+  var fileName = req.params.fileName;
+  var pathFile = './uploads/users/' + fileName;
+
+  fs.exists(pathFile, (exists)=>{
+      if(exists){
+          res.sendFile(path.resolve(pathFile));
+      }else{
+          res.status(404).send({message: 'Imagen inexistente'});
+      }
+  })
+}
+
 module.exports = {
   createUser,
   foundUser,
@@ -127,4 +182,6 @@ module.exports = {
   foundOneUser,
   saveimg,
   createUserAdmin,
+  uploadImage,
+  getImage
 };

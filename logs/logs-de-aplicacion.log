@@ -23094,3 +23094,4 @@ info: 2021-07-01T15:41:22.890Z Usuario admin suministro un token valido. Autenti
 info: 2021-07-01T15:41:22.920Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 65.773 ms
 info: 2021-07-01T15:42:06.795Z Usuario admin suministro un token valido. Autenticacion completada
 info: 2021-07-01T15:42:06.886Z ::1 - GET /league/getLeagues HTTP/1.1 304 - - 86.069 ms
+info: 2021-07-02T04:33:46.186Z Escuchando en el puerto 3000

@@ -4,6 +4,9 @@ const jwt = require("jsonwebtoken");
 const passport = require("passport");
 const uuidv4 = require("uuid/v4");
 
+const connectMultiparty = require('connect-multiparty');
+const upload = connectMultiparty({ uploadDir: './uploads/users'});
+
 const log = require("./../../../utils/logger");
 const config = require("../../../config");
 const validateUser = require("./user.validate").validateUser;
@@ -203,5 +206,8 @@ userRouter.put(
     res.status(200).send({ message: "Imagen subida", user: userUpdated });
   })
 );
+
+userRouter.put("/uploadUserImage/:id", [jwtAuthenticate, upload],userController.uploadImage);
+userRouter.get("/getUserImage/:fileName", [upload], userController.getImage);
 
 module.exports = userRouter;
