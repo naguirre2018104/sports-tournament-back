@@ -57,6 +57,15 @@ function updateUser(id, user) {
   );
 }
 
+function updatePassword(id, updatePassword) {
+  return User.findOneAndUpdate(
+    { _id: id },
+    { $push: { password: updatePassword } },
+    { new: true }
+  );
+}
+
+
 function setHistory(id, history) {
   return User.findOneAndUpdate(
     { _id: id },
@@ -183,5 +192,6 @@ module.exports = {
   saveimg,
   createUserAdmin,
   uploadImage,
-  getImage
+  getImage,
+  updatePassword
 };

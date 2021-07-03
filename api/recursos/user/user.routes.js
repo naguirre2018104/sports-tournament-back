@@ -131,6 +131,31 @@ userRouter.post(
   })
 );
 
+userRouter.put("/updatePassword/:id", [jwtAuthenticate, validarId], procesarErrores(async(req, res) => {
+  let password = req.body;
+  let id = req.params.id
+
+  let userRegistered = await userController.foundOneUser({id: id });
+
+  if(!userRegistered){
+    log.info(`Usuario con id [${id}] no existe.`)
+    throw new IncorrectCredentials();
+  }
+
+  let correctPassword = await bcrypt.compare(password.current, userRegistered.password);
+
+  if(correctPassword){
+    log.debug(`Usuario con id [${id}] ingreso su contraseña correcta`)
+    return bcrypt.hash(password.new, 10).then((hashPassword) => {
+      return userController.updatePassword(userRegistered._id, hashPassword).then((userUpdated) => {
+        let token = jwt.sign({id: userUpdated._id}, config.jwt.secreto, {expiresIn: config.jwt.tiempoDeExpiracion});
+        res.status(201).send({message: "El usuario actualizo su contraseña de forma correcta", user: userUpdated, token: token})
+      })
+    })
+  }
+
+}))
+
 userRouter.put(
   "/updateUser/:id",
   [jwtAuthenticate, validarId, validateUpdate],
