@@ -30,7 +30,13 @@ function setTeam(id, team) {
   );
 }
 
-
+function setJourney(id, journey) {
+  return League.findOneAndUpdate(
+    { _id: id },
+    { $push: { journey: journey } },
+    { new: true }
+  );
+}
 
 function setReports(id, report) {
   return League.findOneAndUpdate(
@@ -104,4 +110,5 @@ module.exports = {
   foundOneLeague,
   deleteTeam,
   deleteReport,
+  setJourney
 };

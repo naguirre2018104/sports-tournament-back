@@ -4,6 +4,7 @@ const passport = require("passport");
 const log = require("../../../utils/logger");
 const validateJourney = require("./journey.validate").validateJourney;
 const journeyController = require("./journey.controller");
+const leagueController = require('../league/league.controller')
 const procesarErrores = require("../../libs/errorHandler").procesarErrores;
 const {
   JourneyDataAlreadyInUse,
@@ -51,11 +52,12 @@ journeyRouter.get(
 );
 
 journeyRouter.post(
-  "/create",
+  "/:id/create",
   [jwtAuthenticate, validateJourney, transformBodyToLowerCase],
   procesarErrores(async (req, res) => {
     let newJourney = req.body;
     let journeyExisting;
+    let id = req.params.id;
 
     journeyExisting = await journeyController.foundOneJourney({
       name: newJourney.journey,
@@ -70,7 +72,10 @@ journeyRouter.post(
 
     journeyController.createJourney(newJourney).then((journey) => {
       log.debug(`La Jornada ha sido creada con exito`);
-      res.status(201).send({ message: "Jornada creada", journey: journey });
+      leagueController.setJourney(journey._id,id).then((leagueUpdated) => {
+        log.debug(`La liga fue actualizada con exito`)
+        res.status(201).send({ message: "Jornada creada", journey: journey });
+      })
     });
   })
 );
