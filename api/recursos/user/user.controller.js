@@ -60,7 +60,7 @@ function updateUser(id, user) {
 function updatePassword(id, updatePassword) {
   return User.findOneAndUpdate(
     { _id: id },
-    { $push: { password: updatePassword } },
+    { password: updatePassword },
     { new: true }
   );
 }
