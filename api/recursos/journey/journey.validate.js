@@ -2,7 +2,8 @@ const Joi = require('@hapi/joi')
 const log = require('../../../utils/logger')
 
 const blueprintJourney = Joi.object({
-    journey: Joi.string().min(4).max(100).required()
+    journey: Joi.string().min(4).max(100).required(),
+    soccerGame: Joi.array().optional(),
 })
 
 let validateJourney = (req, res, next) => {
