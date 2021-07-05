@@ -72,9 +72,9 @@ journeyRouter.post(
 
     journeyController.createJourney(newJourney).then((journey) => {
       log.debug(`La Jornada ha sido creada con exito`);
-      leagueController.setJourney(journey._id,id).then((leagueUpdated) => {
+      leagueController.setJourney(id, journey._id).then((leagueUpdated) => {
         log.debug(`La liga fue actualizada con exito`)
-        res.status(201).send({ message: "Jornada creada", journey: journey });
+        res.status(201).send({ message: "Jornada creada", journey: journey});
       })
     });
   })

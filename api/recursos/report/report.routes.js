@@ -69,7 +69,7 @@ reportRouter.post(
     }
 
     reportController
-      .createReport(newReport, idLeague, idTeam, idSoccerGame, goalDifference)
+      .createReport(newReport, idJourney, idLeague, idTeam, idSoccerGame, goalDifference)
       .then((report) => {
         log.debug(`Reporte creado`);
         leagueController
