@@ -5,6 +5,7 @@ function foundLeague() {
     .populate("user")
     .populate("teams")
     .populate("matchesTeams")
+    .populate("journey")
     .populate("reports");
 }
 
@@ -69,6 +70,7 @@ function existingLeague(name) {
       .populate("user")
       .populate("teams")
       .populate("matchesTeams")
+      .populate("journey")
       .populate("reports")
       .then((league) => {
         resolve(league.length > 0);
@@ -85,6 +87,7 @@ function foundOneLeague({ name: name, id: id }) {
       .populate("user")
       .populate("teams")
       .populate("matchesTeams")
+      .populate("journey")
       .populate("reports");
   }
   if (id) {
@@ -92,6 +95,7 @@ function foundOneLeague({ name: name, id: id }) {
       .populate("user")
       .populate("teams")
       .populate("matchesTeams")
+      .populate("journey")
       .populate("reports");
   }
   throw new Error(

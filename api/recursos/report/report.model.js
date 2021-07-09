@@ -2,11 +2,9 @@ const mongoose = require("mongoose");
 
 const reportSchema = new mongoose.Schema({
   league: { type: mongoose.Schema.ObjectId, ref: "league" },
-  teamsReport: [
-    {
-      team: { type: mongoose.Schema.ObjectId, ref: "team" },
-      journey: { type: mongoose.Schema.ObjectId, ref: "journey" },
-      goals: {
+  team: { type: mongoose.Schema.ObjectId, ref: "team" },
+  journey: { type: mongoose.Schema.ObjectId, ref: "journey" },
+  goals: {
         type: Number,
         required: [true, "Se necesita los goles anotados"],
       },
@@ -23,8 +21,6 @@ const reportSchema = new mongoose.Schema({
         required: [true, "se necesita los puntos obtenidos"],
       },
       soccerGame: { type: mongoose.Schema.ObjectId, ref: "soccerGame" },
-    },
-  ],
 });
 
 module.exports = mongoose.model("report", reportSchema);

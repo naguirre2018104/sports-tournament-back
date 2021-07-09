@@ -130,7 +130,7 @@ teamRouter.delete(
   })
 );
 
-teamRouter.put(
+/*teamRouter.put(
   "/updateImage/:id/image",
   [jwtAuthenticate, validateImage],
   procesarErrores(async (req, res) => {
@@ -150,7 +150,7 @@ teamRouter.put(
     );
     res.status(200).send({ message: "Imagen subida", team: teamUpdated });
   })
-);
+);*/
 
 teamRouter.put("/uploadTeamImage/:id", [jwtAuthenticate, upload],teamController.uploadImage);
 teamRouter.get("/getTeamImage/:fileName", [upload], teamController.getImage);

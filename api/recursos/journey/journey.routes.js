@@ -4,7 +4,7 @@ const passport = require("passport");
 const log = require("../../../utils/logger");
 const validateJourney = require("./journey.validate").validateJourney;
 const journeyController = require("./journey.controller");
-const leagueController = require('../league/league.controller')
+const leagueController = require("../league/league.controller");
 const procesarErrores = require("../../libs/errorHandler").procesarErrores;
 const {
   JourneyDataAlreadyInUse,
@@ -59,23 +59,12 @@ journeyRouter.post(
     let journeyExisting;
     let id = req.params.id;
 
-    journeyExisting = await journeyController.foundOneJourney({
-      name: newJourney.journey,
-    });
-
-    if (journeyExisting) {
-      log.warn(
-        `Ya existe una jornada con el nombre [${journeyExisting.journey}]`
-      );
-      throw new JourneyDataAlreadyInUse();
-    }
-
     journeyController.createJourney(newJourney).then((journey) => {
       log.debug(`La Jornada ha sido creada con exito`);
-      leagueController.setJourney(journey._id,id).then((leagueUpdated) => {
-        log.debug(`La liga fue actualizada con exito`)
-        res.status(201).send({ message: "Jornada creada", journey: journey });
-      })
+      leagueController.setJourney(id, journey._id).then((leagueUpdated) => {
+        log.debug(`La liga fue actualizada con exito`);
+        res.status(201).send({ message: "Jornada creada", journey: journey, league: leagueUpdated });
+      });
     });
   })
 );
@@ -83,7 +72,7 @@ journeyRouter.post(
 journeyRouter.put(
   "/:id",
   [jwtAuthenticate, validarId, validateJourney],
-  procesarErrores( async(req, res) => {
+  procesarErrores(async (req, res) => {
     let id = req.params.id;
     let updateJourney;
 

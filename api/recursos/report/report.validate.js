@@ -2,6 +2,7 @@ const Joi = require('@hapi/joi')
 const log = require('../../../utils/logger')
 
 const blueprintReport = Joi.object({
+    name: Joi.string(),
     goals: Joi.number().positive().precision(0).required(),
     goalsAgainst: Joi.number().positive().precision(0).required(),
     score: Joi.number().valid(3, 1, 0).required()

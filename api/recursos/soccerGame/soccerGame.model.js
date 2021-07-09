@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const soccerGameSchema = new mongoose.Schema({
   dateMatch: {
-    type: Date,
+    type: String,
     required: [true, "Se necesita la fecha del partido"],
   },
   timeMatch: {
