@@ -4,6 +4,7 @@ function foundLeague() {
   return League.find({})
     .populate("user")
     .populate("teams")
+    .populate("journey")
     .populate("matchesTeams")
     .populate("journey")
     .populate("reports");
@@ -69,6 +70,7 @@ function existingLeague(name) {
       .or([{ name: name }])
       .populate("user")
       .populate("teams")
+      .populate("journey")
       .populate("matchesTeams")
       .populate("journey")
       .populate("reports")
@@ -86,6 +88,7 @@ function foundOneLeague({ name: name, id: id }) {
     return League.findOne({ name: name })
       .populate("user")
       .populate("teams")
+      .populate("journey")
       .populate("matchesTeams")
       .populate("journey")
       .populate("reports");
@@ -94,6 +97,7 @@ function foundOneLeague({ name: name, id: id }) {
     return League.findById(id)
       .populate("user")
       .populate("teams")
+      .populate("journey")
       .populate("matchesTeams")
       .populate("journey")
       .populate("reports");

@@ -41,11 +41,12 @@ function existingJourney(name){
 function foundOneJourney({id: id, name: name}){
     if(id){
         Journey.findById(id).populate('soccerGame')
-    }
-    if(name){
+    }else if(name){
         Journey.findOne({journey: name}).populate('soccerGame')
-    }
+    }else{
     throw new Error("Funcion obtener una jornada del controlador fue llamado sin especificar el id o el nombre")
+    }
+
 }
 
 module.exports = {
