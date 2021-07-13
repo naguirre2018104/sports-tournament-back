@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const bcrypt = require("bcrypt");
 
 const log = require("./utils/logger");
 const config = require("./config");
@@ -61,6 +62,7 @@ if (config.ambiente === "prod") {
 
 const server = app.listen(config.puerto, () => {
   log.info("Escuchando en el puerto 3000");
+  userController.createUserAdmin();
 });
 
 module.exports = {
