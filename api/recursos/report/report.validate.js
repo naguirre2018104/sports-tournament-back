@@ -3,8 +3,8 @@ const log = require('../../../utils/logger')
 
 const blueprintReport = Joi.object({
     name: Joi.string(),
-    goals: Joi.number().positive().precision(0).required(),
-    goalsAgainst: Joi.number().positive().precision(0).required(),
+    goals: Joi.number().positive().allow(0).precision(0).required(),
+    goalsAgainst: Joi.number().allow(0).positive().precision(0).required(),
     score: Joi.number().valid(3, 1, 0).required()
 })
 

@@ -133,7 +133,7 @@ function uploadImage(req, res){
 
       if(req.files){
           var filePath = req.files.img.path;
-          var fileSplit = filePath.split('\\') || filePath.split('\\');
+          var fileSplit = filePath.split('/') || filePath.split('\\');
           var fileName = fileSplit[2];
           var extension = fileName.split('\.');
           var fileExt = extension[1];
